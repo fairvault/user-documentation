@@ -1,0 +1,21 @@
+title: My Project
+description: Lightweight docs with Jekyll on GitHub Pages
+# For a PROJECT site:
+url: "https://fairvault.github.io"
+baseurl: "/user-documentation"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate_path: "/page:num"
+
+# Minima options (optional)
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,  user_url: "https://github.com/fairvault" }
