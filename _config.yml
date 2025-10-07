@@ -1,8 +1,7 @@
-title: My Project
-description: Lightweight docs with Jekyll on GitHub Pages
+title: FAIRVault 
+description: This site will contain FAIRVault documentation. 
 # For a PROJECT site:
 url: "https://fairvault.github.io"
-baseurl: "/user-documentation"
 
 theme: minima
 plugins:
