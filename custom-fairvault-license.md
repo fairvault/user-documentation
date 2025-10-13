@@ -4,7 +4,7 @@ layout: page
 permalink: '/custom-fairvault-license/'
 ---
 
-# Custom FAIRVault license
+# License details
 
 *Last updated: 2025-10-13*
 
