@@ -1,16 +1,16 @@
 ---
-title: Custom FAIRVault
+title: Custom FAIRVault license
 layout: page
 permalink: '/custom-fairvault-license/'
 ---
 
-# Custom FAIRVault
+# Custom FAIRVault license
 
 *Last updated: 2025-10-13*
 
-The **Custom FAIRVault** option applies to datasets where **all files are restricted**. In such cases, there is no openly available content to which an open license can be applied. Instead of a public license, access and use conditions are handled **case by case** when someone requests access.
+The **Custom FAIRVault license** option applies to datasets where **all files are restricted**. In such cases, there is no openly available content to which an open license can be applied. Instead of a public license, access and use conditions are handled **case by case** when someone requests access.
 
-## What “Custom FAIRVault” means
+## What "Custom FAIRVault license" means
 
 When every file in a dataset is restricted, a standard open data license cannot be attached. If access is requested, the terms of use must be defined in a **data sharing** or **data transfer agreement** between the provider and the requester. That agreement serves the role a license would otherwise fill and should clearly describe permitted uses, limitations, and responsibilities.
 
@@ -51,7 +51,7 @@ If data are shared under a DSA/DTA, include an acknowledgement such as:
 
 ## Notes and compatibility
 
-- “Custom FAIRVault” is **not** an open license. It’s a **workflow** for handling restricted datasets with bespoke terms.
+- "Custom FAIRVault license" is **not** an open license. It’s a **workflow** for handling restricted datasets with bespoke terms.
 - If you can make **any subset** of files openly available, consider releasing those specific files under an appropriate **standard license** (e.g., CC BY, CC0) and keep only the sensitive files restricted under DSA/DTA terms.
 - Where applicable, align with **institutional policies**, ethical approvals, and applicable **data protection laws**.
 
