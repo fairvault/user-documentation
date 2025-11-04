@@ -32,6 +32,7 @@ If you are not part of one of the participating institutions, you may use your *
 
 After logging in with ORCID, you can request access to certain restricted access datasets.
 
+
 ---
 
 # Usage
@@ -55,11 +56,14 @@ Creating a dataset looks like this:
 ### Downloading Datasets and Files
 
 
-- To download a dataset, open its page and use the **“Download Dataset”** button to retrieve all files as a package.
-- To download an individual file, click the **Download** button next to the desired file in the dataset’s file list.
-- Some files may have restricted access; in that case, you must request access.
+- To download a dataset, open its page and use the **“Access Dataset”** button to retrieve all files as a package.
+![Access dataset](images/FV_access_dataset.png)
 
-![Download dataset](images/download_dataset_1.png)
+- To download an individual file, click the **Download** icon next to the desired file in the dataset’s file list.
+![Access file](images/FV_access_file.png)
+
+- Some files may have restricted access; in that case, you must request access.
+![Access restrictedfile](images/FV_access_restricted-file.png)
 
 ### Searching and Browsing
 
