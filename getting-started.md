@@ -8,7 +8,7 @@ layout: page
 
 # Access
 
-FAIRVault is an instance of Harvard Dataverse, aimed for secure storage of research data. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). It allows researchers to publish, share, and preserve research data in line with FAIR principles (Findable, Accessible, Interoperable, Reusable).
+FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [about page](https://fairvault.github.io/user-documentation/about/).
 
 ![Front page](images/front_page_1.png)
 
@@ -44,8 +44,14 @@ Once logged in:
 1. Navigate to the **Dataverse** collection of your institute.
 2. Click **“Add Data” → “New Dataset”**.
 3. Fill in the metadata fields, such as title, author, contact information, description, keywords, and subject area.
-4. Upload your data files.
-5. Save the draft and review the metadata before publishing. Curators will review datasets before they are made public.
+
+   a) In this test version of FAIRVault, the metadata also comprises of questions related to the confidentiality of the data.
+
+   b) Make sure to fill out this [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8), and **include the response summary** which you will receive by email as a file in your dataset deposit.
+
+5. Upload your data files, including the summary pdf file of the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8).
+6. Save the draft and review the metadata before publishing.
+7. Curators will receive a notification to review your dataset and publish it.
 
 ![Add data](images/add_data_1.png)
 
