@@ -1,20 +1,11 @@
-title: FAIRVault 
-description: This site will contain FAIRVault documentation. 
-# For a PROJECT site:
+title: FAIRVault
+description: This site will contain FAIRVault documentation.
 url: "https://fairvault.github.io"
 
-theme: minima
+remote_theme: just-the-docs/just-the-docs
+
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-remote-theme
 
-# Build settings
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
-paginate_path: "/page:num"
-
-# Minima options (optional)
-minima:
-  skin: auto
-  social_links:
-    - { platform: github,  user_url: "https://github.com/fairvault" }
+permalink: pretty

@@ -1,7 +1,8 @@
 ---
 title: Custom FAIRVault license
-layout: page
-permalink: '/custom-fairvault-license/'
+layout: default
+parent: Licenses
+nav_order: 3
 ---
 
 # License details

@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Contributing
-permalink: /contributing/
+layout: default
+title: "Contributing"
+parent: Guide
 ---
 
 # Contributing to This Site
