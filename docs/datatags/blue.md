@@ -28,5 +28,12 @@ More information: [the FAIRVault Decision Forest for sensitivity of research dat
  - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
  - [ ] Upload the dataset files, do not implement restriction
  - [ ] Upload the response summary from the Decision Tree questionnaire (see above)
+ - [ ] (Optional) Add the guestbook for non confidential datasets
  - [ ] Edit the Terms: select a suitable open data licence from the dropdown (e.g. CC BY 4.0)
  - [ ] Submit the dataset for review
+
+## Actions for the data curator
+- [ ] Review metadata
+- [ ] Review the decision tree responses
+- [ ] Review terms and licence
+- [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
