@@ -50,8 +50,9 @@ Once logged in:
    b) Make sure to fill out this [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8), and **include the response summary** which you will receive by email as a file in your dataset deposit.
 
 5. Upload your data files, including the summary pdf file of the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8).
-6. Save the draft and review the metadata before publishing.
-7. Curators will receive a notification to review your dataset and publish it.
+6. Follow the [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md).
+7. Save the draft and review the metadata before publishing.
+8. Curators will receive a notification to review your dataset and publish it.
 
 ![Add data](images/add_data_1.png)
 
