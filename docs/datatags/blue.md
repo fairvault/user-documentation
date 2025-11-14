@@ -4,3 +4,24 @@ layout: default
 nav_order: 1
 parent: Datatags
 ---
+# Blue data tag: non-confidential and non-sensitive data
+
+If a dataset can be **openly shared**, without any access restrictions, the dataset can be tagged with a blue data tag.
+Anyone browsing to the FAIRVault repository will be able to access the dataset files.
+
+## Example FAIRVault dataset
+A researcher conducts chemical analyses on archaeological artefacts in order to study human consumption behaviour in the Middle Ages. The raw data of this study consists of chemical fingerprints of a high amount of samples, resulting in large data volumes which cannot be easily deposited in external data repositories. The interpretation of the results have been published.
+
+## How to classify?
+
+a) Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.
+b) Make sure to fill out the [Decision Tree questionnaire],(https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary which you will receive by email as a file in your dataset deposit.
+
+If there are no sensitivity or confidentiality risks, the dataset will get a **blue** data tag, and there will be no Legitimate Opt Out reason for open sharing of research data.
+- When submitting the dataset for review, the data curators will review the data tag classification.
+
+## Checklist when depositing
+ - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
+ - [ ] Upload the dataset files, do not implement restriction
+ - [ ] Upload the response summary from the Decision Tree questionnaire (see above)
+ - [ ] Edit the Terms: select a suitable open data licence from the dropdown (e.g. CC BY 4.0)
