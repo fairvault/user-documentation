@@ -27,7 +27,7 @@ More information: [the FAIRVault Decision Forest for sensitivity of research dat
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
- - [ ] Upload the dataset files AND **implement restriction on the dataset files**
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Do not allow access requests. See instructions below.
  - [ ] Upload the response summary from the Decision Tree questionnaire (see above), do not restrict this file or other documentation files if not strictly necessary
  - [ ] Add the guestbook for non confidential datasets
  - [ ] Edit the Terms: select the 'green' FAIRVault data licence from the dropdown
@@ -39,3 +39,12 @@ More information: [the FAIRVault Decision Forest for sensitivity of research dat
 - [ ] Review terms
 - [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
 - [ ] In case of a confirmed green data tag: Grant file permissions to all authenticated users
+
+## Implementing access restriction to data files for datasets with a Green data tag
+- After uploading the files, select the dataset files which should be restricted and click 'Edit' on the right hand side
+- In the small drop-down, click 'Restrict'
+![Edit files to restrict access](../guides/images/FV_restrict_files_1.png)
+
+- Unselect the box that allows access requests. Access will be granted to all authenticated users by the data curator when reviewing your dataset for publication.
+- Add a clarification that data is available to all authenticated users of FAIRVault
+![Do not allow access requests, since all authenticated users will have access](../guides/images/FV_restrict_files_disable_request.png)
