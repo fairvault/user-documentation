@@ -4,3 +4,38 @@ layout: default
 nav_order: 2
 parent: Datatags
 ---
+
+# Green data tag: non-confidential and low sensitivity data with some access control
+
+If a dataset can be shared with minor access restrictions, the dataset can be tagged with a green data tag.
+**Anyone with a FAIRVault account**, [institutional or via ORCID](./guides/getting-started.md#access), browsing to the FAIRVault repository will be able to access the dataset files.
+
+## Example FAIRVault dataset
+A researcher in the field of psychology has executed a large online survey on the use of social media by adults and how it is interwoven in their personal- and professional life. The survey consists of likert scales on statements (“to what level do you agree that….”), it inquires what social media platforms respondents are using and how much time to spend on each platform, and the collection of socio-demographic details (age, gender, professional situation, household composition). Consent is used as a legal ground, and respondents indicated that they agree to sharing the data. Every entry in the dataset has been pseudonymised to such a level that there are at least 4 entries for identical socio-demographical information (i.e. it is impossible to single-out responses based on socio-demographical data). 
+
+## How to classify?
+
+a) Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.  
+b) Make sure to fill out the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary - which you will receive by email - as a file in your dataset deposit.
+
+- Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
+
+If there are minor sensitivity or confidentiality risks, the dataset will get a **green** data tag.
+- When submitting the dataset for review, the data curators will review the data tag classification.
+
+More information: [the FAIRVault Decision Forest for sensitivity of research data](decision-forest.md)
+
+## Checklist when depositing
+ - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**
+ - [ ] Upload the response summary from the Decision Tree questionnaire (see above), do not restrict this file or other documentation files if not strictly necessary
+ - [ ] Add the guestbook for non confidential datasets
+ - [ ] Edit the Terms: select the 'green' FAIRVault data licence from the dropdown
+ - [ ] Submit the dataset for review
+
+## Actions for the data curator
+- [ ] Review metadata
+- [ ] Review the decision tree responses
+- [ ] Review terms
+- [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
+- [ ] In case of a confirmed green data tag: Grant file permissions to all authenticated users
