@@ -15,7 +15,7 @@ A researcher conducts chemical analyses on archaeological artefacts in order to 
 ## How to classify?
 
 a) Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.
-b) Make sure to fill out the [Decision Tree questionnaire],(https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary which you will receive by email as a file in your dataset deposit.
+b) Make sure to fill out the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary which you will receive by email as a file in your dataset deposit.
 
 If there are no sensitivity or confidentiality risks, the dataset will get a **blue** data tag, and there will be no Legitimate Opt Out reason for open sharing of research data.
 - When submitting the dataset for review, the data curators will review the data tag classification.
