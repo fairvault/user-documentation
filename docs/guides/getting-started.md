@@ -8,7 +8,7 @@ permalink: /getting-started/
 
 # Access
 
-FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [about page](home).
+FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [about page](/index.md).
 
 ![Front page](images/front_page_1.png)
 
