@@ -39,7 +39,7 @@ More information: [the FAIRVault Decision Forest for sensitivity of research dat
 - [ ] Review terms
 - [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
 
-## Implementing access restriction to data files for datasets with a Green data tag
+## Implementing access restriction to data files for datasets with an Orange data tag
 - After uploading the files, select the dataset files which should be restricted and click 'Edit' on the right hand side
 - In the small drop-down, click 'Restrict'
 ![Edit files to restrict access](../guides/images/FV_restrict_files_1.png)
