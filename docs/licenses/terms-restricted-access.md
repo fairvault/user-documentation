@@ -1,7 +1,9 @@
+---
 title: Terms for datasets with orange or red datatag
 layout: default
 parent: Licenses
 nav_order: 4
+---
 
 # Terms details
 
