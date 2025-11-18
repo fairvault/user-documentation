@@ -30,13 +30,13 @@ More information: [the FAIRVault Decision Forest for sensitivity of research dat
 - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](##Implementing-access-restriction-to-data-files-for-datasets-with-an-Orange-data-tag).
  - [ ] Upload the response summary from the Decision Tree questionnaire (see above), do not restrict this file or other documentation files if not strictly necessary
  - [ ] Add the guestbook for confidential datasets
- - [ ] Edit the Terms: select custom FAIRVault data licence from the dropdown
+ - [ ] Edit the Terms: select 'Custom Dataset Terms' in the license dropdown and provide a brief summary of the Terms of Use. The curator will review and further complete the terms during the review process.
  - [ ] Submit the dataset for review
 
 ## Actions for the data curator
 - [ ] Review metadata
 - [ ] Review the decision tree responses
-- [ ] Review terms
+- [ ] Review terms, add the necessary information
 - [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
 
 ## Implementing access restriction to data files for datasets with an Orange data tag
