@@ -24,7 +24,7 @@ In case the answer to one of these questions is 'YES', you are not allowed to de
 a) Fill out the the metadata fields relating to the FAIRVault decision tree.   
 b) The questions are also available as a [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8)
 
-![Decision forest for sensitivity of research data](images/FV_Decision_forest.png)
+![Decision forest for sensitivity of research data](images/decisiontreeCommented.png)
 
 ## Extra explanation to the questions
 - Are there ethical concerns regarding disclosure of the data?
