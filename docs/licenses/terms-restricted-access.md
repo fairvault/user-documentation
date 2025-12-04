@@ -38,7 +38,7 @@ Before releasing restricted files, a DSA/DTA should specify at least:
 ## Requesting access to a restricted dataset
 
 1. Request access in FAIRVault on the dataset landing page.
-2. Provide the necessary information, e.g. a short description of your **intended use** and any **ethical/legal approvals** you already hold.
+2. Fill out the guestbook.
 3. The owner (and their institution, where applicable) will **review** the request, draft or provide a **DSA/DTA**, and coordinate signatures.
 4. Upon completion, **access will be granted** in accordance with the agreement’s terms.
 
