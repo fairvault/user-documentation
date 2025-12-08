@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Decision forest questions"
+title: "Decision tree questions"
 parent: Datatags
 ---
 
 # Decision tree 
-By answering the questions of the decision forest, you and the data curators will be able to identify the appropriate Data Tag for your deposit in the FAIRVault.  
+By answering the questions of the decision tree, you and the data curators will be able to identify the appropriate Data Tag for your deposit in the FAIRVault.  
 The most stringent Data Tag that applies to your data will be applied (least to most stringent: Blue < Green < Orange < Red). In case of an Orange or Red Data Tag, indicate in FAIRVault **all** legitimate opt-out reasons that apply: 
 - Privacy
 - Intellectual property rights
@@ -24,7 +24,7 @@ In case the answer to one of these questions is 'YES', you are not allowed to de
 a) Fill out the the metadata fields relating to the FAIRVault decision tree.   
 b) The questions are also available as a [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8)
 
-![Decision forest for sensitivity of research data](images/FV_Decision_forest_upscale.png)
+![Decision tree for sensitivity of research data](images/FV_Decision_forest_upscale.png)
 
 ## Extra explanation to the questions
 - Are there ethical concerns regarding disclosure of the data?
