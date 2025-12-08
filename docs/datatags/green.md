@@ -23,7 +23,7 @@ b) Make sure to fill out the [Decision Tree questionnaire](https://ugent.qualtri
 If there are minor sensitivity or confidentiality risks, the dataset will get a **green** data tag.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
-More information: [the FAIRVault Decision Forest for sensitivity of research data](decision-forest.md)
+More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
