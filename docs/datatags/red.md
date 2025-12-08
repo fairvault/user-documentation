@@ -19,31 +19,30 @@ While these files are deposited in FAIRVault for preservation and research integ
 
 ## How to classify?
 
-a) Complete the metadata fields in accordance with the FAIRVault decision tree, answering all questions relevant to confidentiality, legal exposure, and societal harm risk.  
-b) Fill out the Decision Tree questionnaire and include the response summary — received by email — as an unrestricted documentation file in the dataset deposit for internal verification and review.
+a) Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.  
+b) Make sure to fill out the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary - which you will receive by email - as an unrestricted file in your dataset deposit.
 
-- When multiple files contain different sensitive dimensions, curators will assess all of them individually during classification. *E.g., one file may contain health-related liability risks while another carries public-harm legal risks; both must be flagged appropriately.*
+- Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If a dataset contains legal or societal release risk that cannot be mitigated by interface access-request workflows, it qualifies for a red data tag.
-- On submission for review, data curators will validate the red data-tag classification.
+If there are high sensitivity or confidentiality risks, the dataset may get a **red** data tag.
+- When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [FAIRVault Decision Tree for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)
 
 ## Checklist when depositing
  - [ ] Deposit dataset files in FAIRVault
  - [ ] Ensure **all files are restricted**, with no access-request feature enabled
- - [ ] Provide complete metadata guidance fields
+ - [ ] Provide complete metadata guidance fields - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Upload the response summary from the decision tree as documentation (unrestricted unless exceptionally necessary)
  - [ ] Select 'Custom Dataset Terms' in the license dropdown and provide a concise Terms of Use summary for curator review
  - [ ] Submit dataset for curator review
 
 ## Actions for the data curator
-- [ ] Validate metadata completeness
-- [ ] Validate decision tree and Decision Tree summaries
-- [ ] Draft or request supplemental agreements if necessary
-- [ ] Confirm red data-tag classification
-- [ ] Evaluate necessity and legitimacy of curator-mediated access
-- [ ] Document lawful grounds for prohibiting unconditional open sharing if required
+- [ ] Review metadata
+- [ ] Review the decision tree responses
+- [ ] Review file restriction settings
+- [ ] Review terms, add the necessary information
+- [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
 
 ## Implementing access restriction to data files for datasets with a Red data tag
 - After uploading the files, select the dataset files which should be restricted and click 'Edit' on the right hand side
