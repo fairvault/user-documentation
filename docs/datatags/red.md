@@ -20,14 +20,14 @@ While these files are deposited in FAIRVault for preservation and research integ
 ## How to classify?
 
 a) Complete the metadata fields in accordance with the FAIRVault decision tree, answering all questions relevant to confidentiality, legal exposure, and societal harm risk.  
-b) Fill out the Decision Forest questionnaire and include the response summary — received by email — as an unrestricted documentation file in the dataset deposit for internal verification and review.
+b) Fill out the Decision Tree questionnaire and include the response summary — received by email — as an unrestricted documentation file in the dataset deposit for internal verification and review.
 
 - When multiple files contain different sensitive dimensions, curators will assess all of them individually during classification. *E.g., one file may contain health-related liability risks while another carries public-harm legal risks; both must be flagged appropriately.*
 
 If a dataset contains legal or societal release risk that cannot be mitigated by interface access-request workflows, it qualifies for a red data tag.
 - On submission for review, data curators will validate the red data-tag classification.
 
-More information: [FAIRVault Decision Forest for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)
+More information: [FAIRVault Decision Tree for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)
 
 ## Checklist when depositing
  - [ ] Deposit dataset files in FAIRVault
@@ -39,7 +39,7 @@ More information: [FAIRVault Decision Forest for sensitivity of research data.](
 
 ## Actions for the data curator
 - [ ] Validate metadata completeness
-- [ ] Validate decision tree and Decision Forest summaries
+- [ ] Validate decision tree and Decision Tree summaries
 - [ ] Draft or request supplemental agreements if necessary
 - [ ] Confirm red data-tag classification
 - [ ] Evaluate necessity and legitimacy of curator-mediated access
