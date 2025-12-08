@@ -25,7 +25,7 @@ If there are no sensitivity or confidentiality risks, the dataset will get a **b
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)
 
 ## Checklist when depositing
- - [ ] Provide all mandatory and recommended metadata [todo: insert link to metadata guidance]
+ - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Upload the dataset files, do not implement restriction
  - [ ] Upload the response summary from the Decision Tree questionnaire (see above)
  - [ ] (Optional) Add the guestbook for non confidential datasets
