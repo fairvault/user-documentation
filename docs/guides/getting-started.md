@@ -84,4 +84,8 @@ Creating a dataset looks like this:
 
 ---
 
-For further assistance, contact the FAIRVault support team via the “Support” link at the bottom of the FAIRVault website.
+For further assistance, contact 
+- For VUB: data.archive@vub.be
+- For UGent: rdm.support@ugent.be
+- For UAntwerp: rdm-support@uantwerpen.be
+- For UHasselt: rdm@uhasselt.be
