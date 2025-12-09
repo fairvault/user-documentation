@@ -44,6 +44,7 @@ b) The questions are also available as a [Decision Tree questionnaire](https://u
   - *If yes, is there a clear license allowing you to openly share the material (e.g. CC-BY)?​*
 - Does the dataset contain personal data?​ 
   - *If yes, to what extent has your dataset been anonymized/pseudonymized?​*
+  - **Note:** The FAIRVault definitions of anonymous and pseudonymous data are still in development. For now, you can consult the [UGent Research Tip on personal data](https://onderzoektips.ugent.be/en/tips/00001781/#Pseudonymisedpersonaldata) for guidance.
     - If pseudonymized, have your participants given explicit consent to publicly share pseudonymized data?​
       - If yes, does the dataset contain special categories of personal data/vulnerable people?
         - Special categories of personal data = Race, political views, religious or philosophical beliefs, trade union membership, genetic data, biometric data, health data, data on a person’s sexual behavior or sexual orientation and data relating to criminal convictions or offences.
