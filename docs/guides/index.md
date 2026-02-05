@@ -7,4 +7,4 @@ has_children: true
 
 # Guide
 
-Overview of the guides.
+Link to metadata guide: [download pdf file](./Metadata_overview_v02.pdf)
