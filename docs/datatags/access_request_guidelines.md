@@ -1,5 +1,5 @@
 ---
-title: "Access conditions"
+title: "Overview of access conditions per tag"
 layout: default
 nav_order: 1
 parent: Datatags
