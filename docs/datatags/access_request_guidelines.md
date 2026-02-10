@@ -1,5 +1,5 @@
 ---
-title: "Access request guidelines"
+title: "Access conditions"
 layout: default
 nav_order: 1
 parent: Datatags
