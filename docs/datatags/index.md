@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data tags
+title: Datatags
 nav_order: 3
 has_children: true
 ---
