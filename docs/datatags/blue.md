@@ -26,7 +26,6 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Upload the dataset files, do not implement restriction
- - [ ] Upload the response summary from the Decision Tree questionnaire (see above)
  - [ ] (Optional) Add the guestbook for non confidential datasets
  - [ ] Edit the Terms: select a suitable open data licence from the dropdown (e.g. CC BY 4.0)
  - [ ] Submit the dataset for review
