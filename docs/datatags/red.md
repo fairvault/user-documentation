@@ -19,8 +19,7 @@ While these files are deposited in FAIRVault for preservation and research integ
 
 ## How to classify?
 
-a) Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.  
-b) Make sure to fill out the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8) and include the response summary - which you will receive by email - as an unrestricted file in your dataset deposit.
+Fill out the the metadata fields relating to the FAIRVault decision tree. This comprises of questions related to the confidentiality of the data.  
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
@@ -33,7 +32,6 @@ More information: [FAIRVault Decision Tree for sensitivity of research data.](ht
  - [ ] Deposit dataset files in FAIRVault
  - [ ] Ensure **all files are restricted**, with no access-request feature enabled
  - [ ] Provide complete metadata guidance fields - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
- - [ ] Upload the response summary from the decision tree as documentation (unrestricted unless exceptionally necessary)
  - [ ] Select 'Custom Dataset Terms' in the license dropdown and provide a concise Terms of Use summary for curator review
  - [ ] Submit dataset for curator review
 
