@@ -78,8 +78,7 @@ permalink: /metadata/
 | Date of Collection *(consists of 2 subfields)* | The time period when the data were collected or generated. |  |
 | - Start Date | The date when the data collection started. |  |
 | - End Date | The date when the data collection ended. |  |
-| Data Type | The type of data included in the files. | By clicking “+”, you can add multiple data types. <br> 
-Choose your data type from the drop down menu (compiled data, simulation data, experimental data, aggregated data, survey data, observational data, recorded data, measurement and test data, clinical trial data, genomic data, laboratory notebook, encoded data or geospatial data). | 
+| Data Type | The type of data included in the files. | By clicking “+”, you can add multiple data types. <br> Choose your data type from the drop down menu (compiled data, simulation data, experimental data, aggregated data, survey data, observational data, recorded data, measurement and test data, clinical trial data, genomic data, laboratory notebook, encoded data or geospatial data). | 
 | Series *(consists of 2 subfields)* | Information about the dataset series to which the dataset belong. | By clicking “+”, you can add multiple series. |
 | - Name | The name of the dataset series. |  |
 | - Information | This can include a history of the series and/or a summary of features that apply to the series. |  |
@@ -101,7 +100,13 @@ Choose your data type from the drop down menu (compiled data, simulation data, e
 
 ## FAIRVault Decision Tree
 
-| Metadata field | Description | Tips |
-|----|----|----|
+For the implications of the Decision Tree fields, see [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md)
 
+| Metadata field | Description | Drop-down options | Tips |
+|----|----|----|
+| Are there ethical concerns? | Are there ethical concerns regarding disclosure of the data? | Choose from the drop-down list. (Ethical concerns apply, No ethical concers) | Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.|
+| Underlying 3rd party confidentiality? | Is the dataset subject to confidentiality obligations towards third parties? | Choose from the drop-down list. (3rd party confidentiality applies, No 3rd party confidentiality) | Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA). |
+| Valorisation potential? | Is there a valorisation potential related to the data? | Choose from the drop-down list. (Valorisation potential applies, No valorisation potential) | Choose 'Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders. |
+| Dual/military use? | Can the data be misused or is there any dual or military use potential? | Choose from the drop-down list. (Dual/military use potential, No dual/military use) | Choose ‘Yes’ if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. |
+| Research security or misuse? | | 
 
