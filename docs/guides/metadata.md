@@ -16,7 +16,7 @@ permalink: /metadata/
 | Subtitle | A secondary title that amplifies or states certain limitations on the main title. |  |
 | Alternative title | A title that is commonly used to refer to the dataset or an abbreviation of the title. This field can also be used to add a title in another language. | By clicking “+”, you can add multiple titles. |
 | Alternative URL | URL outside of FAIRVault where the data of the dataset can also be viewed or accessed, such as a project or personal webpage. | An example can be GitHub/GitLab. |
-| Other identifier (consists of 2 subfields) | Another unique identifier for the dataset, such as another repository’s identifier. | e.g. accession number in a sequence database <br> By clicking “+”, you can add multiple identifiers. |
-| <ul><li>Agency</li></ul> | The name of the producer or other repository that generated the other identifier. |  |
-| &nbsp; Identifier | Another identifier that uniquely identifies the dataset. |  |
-
+| Other identifier *(consists of 2 subfields)* | Another unique identifier for the dataset, such as another repository’s identifier. | e.g. accession number in a sequence database <br> By clicking “+”, you can add multiple identifiers. |
+| test <ul><li>Agency</li></ul> | The name of the producer or other repository that generated the other identifier. |  |
+| - Identifier | Another identifier that uniquely identifies the dataset. |  |
+| Author *(consists of 4 subfields)* | The person(s) or organization(s) responsible for creating the data of the dataset. Note that the author names are added to the bibliographic citation in order of entry. | The name and affiliation associated with the account creating the dataset draft will be automatically included as the first Author of the dataset. <br> By clicking “+”, you can add co-authors. |
