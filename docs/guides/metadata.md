@@ -8,7 +8,9 @@ permalink: /metadata/
 
 # Overview of the full metadata model
 [Citation metadata](#citation-metadata)
+
 [Access conditions](#access-conditions)
+
 [Decision Tree](#fairvault-decision-tree)
 
 ## Citation metadata
@@ -108,7 +110,7 @@ For the implications of the Decision Tree fields, see [guidelines for restrictin
 | Metadata field | Description | Drop-down options | Tips |
 |----|----|----|----|
 | Ethical concerns? | Are there ethical concerns regarding disclosure of the data? | <ul><li>Ethical concerns apply </li><li>No ethical concerns</li></ul> | Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.|
-| Underlying 3rd party confidentiality? | Is the dataset subject to confidentiality obligations towards third parties? | Choose from the drop-down list. (3rd party confidentiality applies, No 3rd party confidentiality) | Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA). |
+| Underlying 3rd party confidentiality? | Is the dataset subject to confidentiality obligations towards third parties? | Choose from the drop-down list: 3rd party confidentiality applies, No 3rd party confidentiality | Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA). |
 | Valorisation potential? | Is there a valorisation potential related to the data? | Choose from the drop-down list. (Valorisation potential applies, No valorisation potential) | Choose 'Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders. |
 | Dual/military use? | Can the data be misused or is there any dual or military use potential? | Choose from the drop-down list. (Dual/military use potential, No dual/military use) | Choose ‘Yes’ if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. |
 | Research security or misuse? | | 
