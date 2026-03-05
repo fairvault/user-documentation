@@ -8,7 +8,7 @@ permalink: /getting-started/
 
 # Access
 
-FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [about page](/index.md).
+FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [Home page](../index.md).
 
 ![Front page](images/front_page_1.png)
 
@@ -43,15 +43,11 @@ Once logged in:
 
 1. Navigate to the **Dataverse** collection of your institute.
 2. Click **“Add Data” → “New Dataset”**.
-3. Fill in the metadata fields, such as title, author, contact information, description, keywords, and subject area.
-
-   a) In this test version of FAIRVault, the metadata also comprises of questions related to the confidentiality of the data.
-
-   b) Make sure to fill out this [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8), and **include the response summary** which you will receive by email as a file in your dataset deposit.
-
-5. Upload your data files, including the summary pdf file of the [Decision Tree questionnaire](https://ugent.qualtrics.com/jfe/form/SV_0od3zuglm2D01P8).
+3. Fill in the citation metadata fields, such as title, author, contact information, description, keywords, and subject area. If necessary, check out [the guidance on metadata fields](../guides/metadata.md#citation-metadata).
+4. The metadata also comprises of questions related to the access conditions and confidentiality of the data. If necessary, check out [the guidance on metadata fields](../guides/metadata.md#access-conditions).
+5. Upload your data files.
 6. Follow the [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md).
-7. Save the draft and review the metadata before publishing.
+7. Save the draft and review the metadata before submitting for review.
 8. Curators will receive a notification to review your dataset and publish it.
 
 ![Add data](images/add_data_1.png)
@@ -78,7 +74,6 @@ Creating a dataset looks like this:
 - You can refine your search using the **filters on the left-hand side** of the results page.  
 
   These include filters for author, publication date, subject, and file type.
-- Each dataset page displays **Facets** (metadata such as author, version, DOI, and publication date) on the left-hand side of the screen.
 
 ![Search dataverse](images/search_dataverse_2.png)
 
