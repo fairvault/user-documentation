@@ -4,9 +4,9 @@ layout: default
 nav_order: 1
 parent: Datatags
 ---
-# Blue data tag: non-confidential and non-sensitive data
+# Blue (Open) data tag: non-confidential and non-sensitive data
 
-If a dataset can be **openly shared**, without any access restrictions, the dataset can be tagged with a blue data tag.
+If a dataset can be **openly shared**, without any access restrictions, the dataset can be tagged with a blue (Open) data tag.
 Anyone browsing to the FAIRVault repository will be able to access the dataset files.
 
 ## Example FAIRVault dataset
@@ -18,7 +18,7 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are no sensitivity or confidentiality risks, the dataset will get a **blue** data tag, and there will be no Legitimate Opt Out reason for open sharing of research data.
+If there are no sensitivity or confidentiality risks, the dataset will get a **blue (Open)** data tag, and there will be no Legitimate Opt Out reason for open sharing of research data.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)

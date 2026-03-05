@@ -5,13 +5,13 @@ nav_order: 3
 parent: Datatags
 ---
 
-# Red data tag: legally risky or highly sensitive data with strict curatorial control
+# Red (Metadata only) data tag: legally risky or highly sensitive data with strict curatorial control
 
-A dataset must be classified with a red data tag when it contains data that poses substantial legal, or public risk if released without unconditional safeguards.  
-Files are deposited normally in FAIRVault, but *remain strictly restricted at all times — there are no dataset access-request mechanisms for users to apply through the interface.
+A dataset must be classified with a red (Metadata only) data tag when it contains data that poses substantial legal, or public risk if released without unconditional safeguards.  
+Files are deposited in FAIRVault, with their metadata available, but the files remain strictly restricted — there are no dataset access-request mechanisms for users to apply through the interface.
 
-Access to datasets classified under the red data tag is always evaluated case-by-case by data curators and curators alone.  
-To initiate this process, researchers must directly contact the FAIRVault curators. The FAIRVault curators may then draft specific Data Use or Data Transfer Agreements where required.
+Access to datasets classified under the red data tag is always evaluated case-by-case by data curators.  
+To initiate this process, researchers must directly contact the FAIRVault support. The FAIRVault curators may then draft specific Data Use or Data Transfer Agreements where required.
 
 ## Example FAIRVault dataset
 A Digital Humanities researcher archives a set of personal testimonies containing legally risky material, such as statements involving medical malpractice disputes or confessions describing criminal behavior, including severe public-risk cases like child abuse.  
@@ -23,7 +23,7 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are high sensitivity or confidentiality risks, the dataset may get a **red** data tag.
+If there are high sensitivity or confidentiality risks, the dataset may get a **red (Metadata only)** data tag.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [FAIRVault Decision Tree for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)

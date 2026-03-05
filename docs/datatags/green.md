@@ -5,9 +5,9 @@ nav_order: 2
 parent: Datatags
 ---
 
-# Green data tag: non-confidential and low sensitivity data with some access control
+# Green (Registered) data tag: non-confidential and low sensitivity data with some access control
 
-If a dataset can be shared with minor access restrictions, the dataset can be tagged with a green data tag.
+If a dataset can be shared with minor access restrictions, the dataset can be tagged with a green (Registered) data tag.
 **Anyone with a FAIRVault account**, [institutional or via ORCID](../guides/getting-started.md#access), browsing to the FAIRVault repository will be able to access the dataset files.
 
 ## Example FAIRVault dataset
@@ -19,7 +19,7 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are minor sensitivity or confidentiality risks, the dataset will get a **green** data tag.
+If there are minor sensitivity or confidentiality risks, the dataset will get a **green (Registered)** data tag.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)

@@ -100,8 +100,13 @@ permalink: /metadata/
 
 ## Access conditions
 
+For the access levels defined in FAIRVault, see [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md)
+
 | Metadata field | Description | Tips |
 |----|----|----|
+| Sensitivity level | What data tag applies to the data?  | Data tags are a tool to quickly assess the sensitivity level of a dataset. The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block. |
+| Embargo until | End date of data embargo period. This is the date after which the data will become accessible (either openly or via access requests). | Add the date following the ISO 8601 standard, i.e. YYYY-MM-DD. |
+| Reason for restriction | Reason why access to (some) files in the dataset need to be restricted. | Choose from the drop-down list. Multiple answers can be selected. |
 
 ## FAIRVault Decision Tree
 
@@ -118,3 +123,8 @@ For the implications of the Decision Tree fields, see [guidelines for restrictin
 | - Secondary data? | Does the dataset contain secondary data? | - No secondary data within this dataset <br> - The dataset contains secondary data |  |
 | - Copyright? | Are the secondary data protected by third party copyright? | - Not applicable <br> - Dataset does not contain data protected by copyright of third parties <br> - Dataset contains data protected by copyright of third parties | Select 'Not applicable' if the dataset does not contain secondary data. |
 | - License? | Are the secondary data licensed for further reuse and sharing? | - Not applicable <br> - Secondary data is licensed for further sharing <br> - Secondary data is not licensed for further sharing | Select 'Not applicable' if the dataset does not contain secondary data. <br> Is there a clear license allowing you to openly share the secondary data (e.g. CC-BY)? |
+| Personal Data *(consists of 4 subfields)* | Following Art. 4(1) of GDPR, personal data are any information which are related to an identified or identifiable natural person. These can include direct (e.g. name, identification number) and/or indirect identifiers (e.g. gender, date of birth). |  |  |
+| - Personal data? | Does the dataset contain personal data? | - Dataset contains personal data <br> - No, Dataset does not contain personal data | 
+| - Anonymisation/Pseudonymisation | To what extent has your dataset been anonymized/pseudonymized for sharing via the Fairvault? | - Not Applicable <br> - Anonymized <br> - Pseudonymized <br> - Neither anonymized nor pseudonymized | Select 'Not applicable' if the dataset does not contain personal data <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”. <br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”. |
+| - Consent? | Have your participants given explicit consent to have their data shared in its current form? | - Not Applicable <br> - Yes, they have consented to data sharing <br> - No, they have not consented to data sharing | Select 'Not applicable' if the dataset does not contain personal data |
+| - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not Applicable <br> - Dataset contains special categories/vulnerable people <br> - No, dataset does not contain special categories/vulnerable people | Select 'Not applicable' if the dataset does not contain personal data |

@@ -5,9 +5,9 @@ nav_order: 3
 parent: Datatags
 ---
 
-# Orange data tag: confidential and moderate sensitivity data with access control
+# Orange (Restricted) data tag: confidential and moderate sensitivity data with access control
 
-If a dataset can only be shared under restricted access conditions, but does not contain highly sensitive data, the dataset can be tagged with an orange data tag.  
+If a dataset can only be shared under restricted access conditions, but does not contain highly sensitive data, the dataset can be tagged with an orange (Restricted) data tag.  
 All authenticated users of FAIRVault can submit a Data Access request. This access request will be evaluated. If necessary (e.g. for personal data), a Data Use or Data Transfer Agreement will be drafted and signed by both parties before access can be granted.
 
 ## Example FAIRVault dataset
@@ -19,7 +19,7 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are sensitivity or confidentiality risks, the dataset may get an **orange** data tag.
+If there are sensitivity or confidentiality risks, the dataset may get an **orange (Restricted)** data tag.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)
