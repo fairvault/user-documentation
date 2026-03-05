@@ -1,5 +1,5 @@
 ---
-title: "Red"
+title: "Red (Metadata only)"
 layout: default
 nav_order: 3
 parent: Datatags

@@ -1,5 +1,5 @@
 ---
-title: "Blue"
+title: "Blue (Open)"
 layout: default
 nav_order: 1
 parent: Datatags

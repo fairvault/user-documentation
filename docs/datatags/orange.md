@@ -1,5 +1,5 @@
 ---
-title: "Orange"
+title: "Orange (Restricted)"
 layout: default
 nav_order: 3
 parent: Datatags
