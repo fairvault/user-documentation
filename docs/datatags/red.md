@@ -8,9 +8,9 @@ parent: Datatags
 # Red (Metadata only) data tag: legally risky or highly sensitive data with strict curatorial control
 
 A dataset must be classified with a red (Metadata only) data tag when it contains data that poses substantial legal, or public risk if released without unconditional safeguards.  
-Files are deposited in FAIRVault, with their metadata available, but the files remain strictly restricted — there are no dataset access-request mechanisms for users to apply through the interface.
+By default, only metadata are publicly accessible. Access to data files is restricted and cannot be requested via the FAIRVault interface. Only in exceptional well-justified cases access to data may be granted, under specific conditions, to users who receive explicit authorization.
 
-Access to datasets classified under the red data tag is always evaluated case-by-case by data curators.  
+> Access to datasets classified under the red data tag is always evaluated case-by-case by data curators.  
 To initiate this process, researchers must directly contact the FAIRVault support. The FAIRVault curators may then draft specific Data Use or Data Transfer Agreements where required.
 
 ## Example FAIRVault dataset
