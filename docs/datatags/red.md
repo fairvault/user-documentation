@@ -11,7 +11,7 @@ A dataset must be classified with a red (Metadata only) data tag when it contain
 By default, only metadata are publicly accessible. Access to data files is restricted and cannot be requested via the FAIRVault interface. Only in exceptional well-justified cases access to data may be granted, under specific conditions, to users who receive explicit authorization.
 
 > Access to datasets classified under the red data tag is always evaluated case-by-case by data curators.  
-To initiate this process, researchers must directly contact the FAIRVault support. The FAIRVault curators may then draft specific Data Use or Data Transfer Agreements where required.
+The FAIRVault curators may then provide specific Data Use or Data Transfer Agreements where required.
 
 ## Example FAIRVault dataset
 A Digital Humanities researcher archives a set of personal testimonies containing legally risky material, such as statements involving medical malpractice disputes or confessions describing criminal behavior, including severe public-risk cases like child abuse.  
@@ -23,7 +23,7 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are high sensitivity or confidentiality risks, the dataset may get a **red (Metadata only)** data tag.
+If there are high sensitivity or confidentiality risks, the dataset may get a **Red (Metadata only)** data tag.
 - When submitting the dataset for review, the data curators will review the data tag classification.
 
 More information: [FAIRVault Decision Tree for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)
@@ -31,12 +31,13 @@ More information: [FAIRVault Decision Tree for sensitivity of research data.](ht
 ## Checklist when depositing
  - [ ] Deposit dataset files in FAIRVault
  - [ ] Ensure **all files are restricted**, with no access-request feature enabled
- - [ ] Provide complete metadata guidance fields - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
+ - [ ] Provide complete metadata information - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Select 'Custom Dataset Terms' in the license dropdown and provide a concise Terms of Use summary for curator review
  - [ ] Submit dataset for curator review
 
 ## Actions for the data curator
 - [ ] Review metadata
+- [ ] Add an institutional point of contact 
 - [ ] Review the decision tree responses
 - [ ] Review file restriction settings
 - [ ] Review terms, add the necessary information

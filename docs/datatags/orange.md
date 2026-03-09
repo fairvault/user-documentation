@@ -33,6 +33,7 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 
 ## Actions for the data curator
 - [ ] Review metadata
+- [ ] Add an institutional point of contact 
 - [ ] Review the decision tree responses
 - [ ] Review terms, add the necessary information
 - [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
