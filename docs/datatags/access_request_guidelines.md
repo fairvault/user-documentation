@@ -22,11 +22,11 @@ Datasets with a green data tag are automatically accessible to logged in users. 
 Orange data-tagged datasets contain some sensitive or confidential data, and as such, are only available after a Data Access Request. Do the following:
 
 1. Request access to restricted files using FAIRVault. 
-2. Fill out the guest book for the dataset when downloading files.
+2. Fill out the guest book for the dataset when requesting access.
 3. The access request is handled by curators and the original data owner.
 
 # Red (Metadata only)
 
-Datasets with a red data tag are considered to contain highly sensitive data. Access can only be granted in exceptional cases. These often come with specific access conditions, and always with a Data Transfer Agreement.
+Datasets with a red data tag are considered to contain highly sensitive or highly confidential data. Access can only be granted in exceptional cases. These often come with specific access conditions, and always with a Data Transfer Agreement.
 
 1. Contact FAIRVault support about this dataset to request access. They will walk you through the process of getting access to this specific dataset.

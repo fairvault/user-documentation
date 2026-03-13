@@ -5,7 +5,7 @@ nav_order: 3
 parent: Datatags
 ---
 
-# Red (Metadata only) data tag: legally risky or highly sensitive data with strict curatorial control
+# Red (Metadata only) data tag: highly sensitive or highly confidential data with strict curatorial control
 
 A dataset must be classified with a red (Metadata only) data tag when it contains data that poses substantial legal, or public risk if released without unconditional safeguards.  
 By default, only metadata are publicly accessible. Access to data files is restricted and cannot be requested via the FAIRVault interface. Only in exceptional well-justified cases access to data may be granted, under specific conditions, to users who receive explicit authorization.
@@ -29,11 +29,11 @@ If there are high sensitivity or confidentiality risks, the dataset may get a **
 More information: [FAIRVault Decision Tree for sensitivity of research data.](https://fairvault.github.io/user-documentation/docs/datatags/decision-forest/)
 
 ## Checklist when depositing
- - [ ] Deposit dataset files in FAIRVault
- - [ ] Ensure **all files are restricted**, with no access-request feature enabled
- - [ ] Provide complete metadata information - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
- - [ ] Select 'Custom Dataset Terms' in the license dropdown and provide a concise Terms of Use summary for curator review
- - [ ] Submit dataset for curator review
+ - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
+ - [ ] Include an institutional point of contact: support [at] fairvault.be
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Do not allow access requests. 
+ - [ ] Edit the Terms: select 'Custom Dataset Terms' in the license dropdown and provide a brief summary of the Terms of Use. The curator will review and further complete the terms during the review process.
+ - [ ] Submit the dataset for review
 
 ## Actions for the data curator
 - [ ] Review metadata
