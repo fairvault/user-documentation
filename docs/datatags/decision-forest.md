@@ -23,7 +23,7 @@ In case the answer to one of these questions is 'YES', you are not allowed to de
 ## Deposit
 Fill out the the metadata fields relating to the FAIRVault decision tree.   
 
-![Decision tree for sensitivity of research data](images/FV_Decision_forest_upscale.png)
+![Decision tree for sensitivity of research data](images/FV_DecisionForest_labelled.png)
 
 ## Extra explanation to the questions
 - Are there ethical concerns regarding disclosure of the data?
