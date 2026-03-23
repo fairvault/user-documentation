@@ -26,7 +26,7 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
- - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Do not allow access requests. See [instructions below](##Implementing-access-restriction-to-data-files-for-datasets-with-a-Green-data-tag).
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](##Implementing-access-restriction-to-data-files-for-datasets-with-a-Green-data-tag).
  - [ ] Add the green dataset guestbook for non confidential datasets.
  - [ ] Edit the Terms: select the FAIRVault v1.0 data licence from the dropdown.
  - [ ] Submit the dataset for review.
@@ -36,13 +36,13 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 - [ ] Review the decision tree responses
 - [ ] Review terms
 - [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
-- [ ] In case of a confirmed green data tag: Grant file permissions to all authenticated users
+- [ ] In case of a confirmed green data tag: Grant access to all authenticated users
 
 ## Implementing access restriction to data files for datasets with a Green data tag
 - After uploading the files, select the dataset files which should be restricted and click 'Edit' on the right hand side
 - In the small drop-down, click 'Restrict'
 ![Edit files to restrict access](../guides/images/FV_restrict_files_1.png)
 
-- Unselect the box that allows access requests. Access will be granted to all authenticated users by the data curator when reviewing your dataset for publication.
+- Select the box that allows access requests. Access will be granted to all authenticated users by the data curator.
 - Add a clarification that data is available to all authenticated users of FAIRVault
-![Do not allow access requests, since all authenticated users will have access](../guides/images/FV_restrict_files_disable_request.png)
+![Allow access requests](../guides/images/FV_restrict_files_1.png)
