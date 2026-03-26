@@ -26,7 +26,7 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
- - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](##Implementing-access-restriction-to-data-files-for-datasets-with-a-Green-data-tag).
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](#Implementing-access-restriction-to-data-files-for-datasets-with-a-Green-data-tag).
  - [ ] Add the green dataset guestbook for non confidential datasets.
  - [ ] Edit the Terms: select the FAIRVault v1.0 data licence from the dropdown.
  - [ ] Submit the dataset for review.

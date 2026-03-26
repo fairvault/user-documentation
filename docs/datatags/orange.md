@@ -27,7 +27,7 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Include an institutional point of contact: support [at] fairvault.be
- - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](##Implementing-access-restriction-to-data-files-for-datasets-with-an-Orange-data-tag).
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](#Implementing-access-restriction-to-data-files-for-datasets-with-an-Orange-data-tag).
  - [ ] Add the orange dataset guestbook for confidential datasets
  - [ ] Edit the Terms: select 'Custom Dataset Terms' in the license dropdown and provide a brief summary of the Terms of Use. The curator will review and further complete the terms during the review process.
  - [ ] Submit the dataset for review
