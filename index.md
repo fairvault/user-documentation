@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-permalink: /home/
+permalink: /
 ---
 
 <mark><strong>Note that currently the FAIRVault is available for testing purposes only!</strong></mark>
