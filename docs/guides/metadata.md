@@ -128,3 +128,30 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 | - Anonymization/Pseudonymization | To what extent has your dataset been anonymized/pseudonymized for sharing via the Fairvault? | - Not applicable <br> - Anonymized <br> - Pseudonymized <br> - Neither anonymized nor pseudonymized | Select 'Not applicable' if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”. <br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”. |
 | - Consent? | Have the participants given consent to share the data? | - Not applicable <br> - Yes, consent obtained for data sharing <br> - No, no consent obtained for data sharing | Select 'Not applicable' if the dataset does not contain personal data. |
 | - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not applicable <br> - No special categories of personal data and no data from vulnerable people <br> - The personal data includes special categories of personal data <br> - The personal data includes data from vulnerable people | Select 'Not applicable' if the dataset does not contain personal data. |
+
+## testing
+<table>
+  <thead>
+    <tr>
+      <th>Metadata field</th>
+      <th>Description</th>
+      <th>Tips</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="3">Dataset Information</td>
+      <td>Title</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
