@@ -104,9 +104,9 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
 
 | Metadata field | Description | Tips |
 |----|----|----|
-| Sensitivity level | What data tag applies to the data?  | Data tags are a tool to quickly assess the sensitivity level of a dataset. The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block. |
+| Sensitivity level | What sensitivity level applies to the data?  | The sensitivity level of the dataset is categorized according to the corresponding access level. The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block. |
 | Embargo until | End date of data embargo period. This is the date after which the data will become accessible (either openly or via access requests). | Add the date following the ISO 8601 standard, i.e. YYYY-MM-DD. |
-| Reason for restriction | Reason why access to (some) files in the dataset need to be restricted. | Choose from the drop-down list. Multiple answers can be selected. |
+| Reason for restriction | Provide the reason why access to (some) files in the dataset need to be restricted. | Choose from the drop-down list. Multiple answers can be selected. |
 
 ## FAIRVault Decision Tree
 
@@ -130,28 +130,114 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 | - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not applicable <br> - No special categories of personal data and no data from vulnerable people <br> - The personal data includes special categories of personal data <br> - The personal data includes data from vulnerable people | Select 'Not applicable' if the dataset does not contain personal data. |
 
 ## testing
-<table>
+<table class="metadata-table">
   <thead>
     <tr>
-      <th>Metadata field</th>
-      <th>Description</th>
-      <th>Tips</th>
+      <th colspan="2">Ethical Concerns</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+      <td colspan="2">Are there ethical concerns regarding disclosure of the data?</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Options</td>
+      <td>Ethical concerns apply </td>
+    </tr>
+    <tr>
+      <td>No ethical concerns</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th>Data Reuse</th>
+      <th colspan="2"></th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td rowspan="3">Dataset Information</td>
-      <td>Title</td>
-      <td>Yes</td>
+      <td rowspan="4"></td>
+      <td colspan="2">
+        <strong>Does the dataset contain secondary data?</strong>
+      </td>
     </tr>
     <tr>
-      <td>Description</td>
-      <td>Yes</td>
+      <td rowspan="2">Options</td>
+      <td>No secondary data within this dataset</td>
     </tr>
     <tr>
-      <td>Keywords</td>
-      <td>No</td>
+      <td>Dataset contains secondary data</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Indicate whether the dataset, or parts of the dataset, have been obtained from someone else or have been originally created as part of another project.
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="5"></td>
+      <td colspan="2">
+        <strong>Copyright?</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3">Options</td>
+      <td>Not applicable</td>
+    </tr>
+    <tr>
+      <td>Secondary data is not subject to copyright of third parties</td>
+    </tr>
+    <tr>
+      <td>Secondary data is subject to copyright of third parties</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Are the secondary data protected by third party copyright?<br>
+        Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </details>
+      </td>
+    </tr>
+        <tr>
+      <td rowspan="5"></td>
+      <td colspan="2">
+        <strong>License?</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3">Options</td>
+      <td>Not applicable</td>
+    </tr>
+    <tr>
+      <td>Secondary data is licensed for further sharing</td>
+    </tr>
+    <tr>
+      <td>Secondary data is not licensed for further sharing</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
+        Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </details>
+      </td>
     </tr>
   </tbody>
 </table>
