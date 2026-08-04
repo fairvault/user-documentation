@@ -27,6 +27,17 @@
   font-weight: 400;
 }
 
+.main-content table.metadata-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.main-content table.metadata-table th:first-child,
+.main-content table.metadata-table td:first-child {
+  width: 25%;
+}
+
+
 .main-content table.metadata-table thead th {
   position: sticky;
   top: 0;

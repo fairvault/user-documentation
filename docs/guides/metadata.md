@@ -287,7 +287,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
     <tr>
       <td rowspan="5"></td>
       <td colspan="2">
-        <strong>Copyright?</strong>
+        <strong>Copyright of the secondary data?</strong>
       </td>
     </tr>
     <tr>
@@ -312,7 +312,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         <tr>
       <td rowspan="5"></td>
       <td colspan="2">
-        <strong>License?</strong>
+        <strong>License of the secondary data?</strong>
       </td>
     </tr>
     <tr>
