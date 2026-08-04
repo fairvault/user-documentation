@@ -3,6 +3,7 @@ description: This site will contain FAIRVault documentation.
 url: "https://fairvault.github.io"
 
 remote_theme: just-the-docs/just-the-docs
+color_scheme: fairvault
 
 plugins:
   - jekyll-remote-theme

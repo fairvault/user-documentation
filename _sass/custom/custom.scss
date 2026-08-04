@@ -4,13 +4,13 @@
   border-collapse: collapse;
   font-size: 0.95rem;
   line-height: 1.5;
-  margin: 1.5rem 0;
+ // margin: 1.5rem 0;
 }
 
 .main-content table.metadata-table th,
 .main-content table.metadata-table td {
   border: 1px solid #d9dde3;
- // padding: 0.75rem 1rem;
+  padding: 0.75rem 1rem;
   text-align: left;
   vertical-align: top;
 }
@@ -18,6 +18,10 @@
 .main-content table.metadata-table thead th {
   background-color: #142428;
   color: white;
+  font-weight: 600;
+}
+
+.main-content table.metadata-table tbody td {
   font-weight: 600;
 }
 

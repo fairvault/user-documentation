@@ -13,6 +13,8 @@ permalink: /metadata/
 
 [Decision Tree](#fairvault-decision-tree)
 
+[Test new HTML table layout](#testing-new-table-layout)
+
 ## Citation metadata
 
 | Metadata field | Description | Tips |
@@ -129,7 +131,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 | - Consent? | Have the participants given consent to share the data? | - Not applicable <br> - Yes, consent obtained for data sharing <br> - No, no consent obtained for data sharing | Select 'Not applicable' if the dataset does not contain personal data. |
 | - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not applicable <br> - No special categories of personal data and no data from vulnerable people <br> - The personal data includes special categories of personal data <br> - The personal data includes data from vulnerable people | Select 'Not applicable' if the dataset does not contain personal data. |
 
-## testing
+## testing new table layout
 <table class="metadata-table">
   <thead>
     <tr>
@@ -158,6 +160,100 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
     </tr>
   </tbody>
 </table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th colspan="2">3rd Party Confidentiality</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+      <td colspan="2">Is the dataset generated as part of a collaboration with 3rd parties?</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Options</td>
+      <td>3rd party confidentiality applies</td>
+    </tr>
+    <tr>
+      <td>No 3rd party confidentiality</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. <br> E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA).
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th colspan="2">Valorisation potential</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+      <td colspan="2">Is there valorisation potential related to the data?</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Options</td>
+      <td>Valorisation potential applies</td>
+    </tr>
+    <tr>
+      <td>No valorisation potential</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Choose ‘Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th colspan="2">Other ethical issues</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+      <td colspan="2">Select which other ethical issues apply.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Options</td>
+      <td>No other ethical issues</td>
+    </tr>
+    <tr>
+      <td>Potential for misuse</td>
+    </tr>
+        <tr>
+      <td>Dual/military use potential</td>
+    </tr>
+       <tr>
+      <td>Concerns related to research security</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Choose <strong>‘Dual/military use potential’</strong> if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. <br> Choose <strong>‘Potential for misuse’</strong> if the dataset (research results or techniques) could be used for terrorist or criminal activities or in applications that violate human rights or compromise the safety of people, animals or the environment. <br> Choose <strong>‘concerns related to research security’</strong> if the dataset risks undesired knowledge or technology transfer, foreign interference, or misuse of research results that could compromise academic freedom, research integrity, or lead to unethical applications, including military or criminal use.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 <table class="metadata-table">
   <thead>
