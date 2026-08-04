@@ -258,8 +258,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
-      <th>Data Reuse</th>
-      <th colspan="3"></th>
+      <th colspan="3">Data Reuse</th>
     </tr>
   </thead>
 
@@ -332,6 +331,114 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         <summary>More information</summary>
         Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
         Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th colspan="3">Personal Data</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="4"></td>
+      <td colspan="2">
+        <strong>Does the dataset contain personal data?</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Options</td>
+      <td>Yes, the dataset contains personal data</td>
+    </tr>
+      <td>No, the dataset does not contain personal data</td>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Indicate whether the dataset, or parts of the dataset, contain personal data according to the definition of the European privacy legislation, GDPR.
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="6"></td>
+      <td colspan="2">
+        <strong>Anonymization/Pseudonymization</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4">Options</td>
+      <td>Not applicable</td>
+    </tr>
+    <tr>
+      <td>Anonymized</td>
+    </tr>
+    <tr>
+      <td>Pseudonymized</td>
+    </tr>
+    <tr>
+      <td>Neither anonymized nor pseudonymized</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Select ‘Not applicable’ if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”.<br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”.
+        </details>
+      </td>
+    </tr>
+        <tr>
+      <td rowspan="5"></td>
+      <td colspan="2">
+        <strong>Consent?</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3">Options</td>
+      <td>Not applicable</td>
+    </tr>
+    <tr>
+      <td>Yes, consent obtained for data sharing</td>
+    </tr>
+    <tr>
+      <td>No, no consent obtained for data sharing</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Select ‘Not applicable’ if the dataset does not contain personal data. <br> Indicate whether the consent form includes explicit consent for further sharing.
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="6"></td>
+      <td colspan="2">
+        <strong>Special categories</strong>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4">Options</td>
+      <td>Not applicable</td>
+    </tr>
+    <tr>
+      <td>No special categories of personal data and no data from vulnerable people</td>
+    </tr>
+    <tr>
+      <td>The personal data includes special categories of personal data</td>
+    </tr>
+    <tr>
+      <td>The personal data includes data from vulnerable people</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Select ‘Not applicable’ if the dataset does not contain personal data. 
         </details>
       </td>
     </tr>

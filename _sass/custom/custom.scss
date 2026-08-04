@@ -4,7 +4,6 @@
   border-collapse: collapse;
   font-size: 0.95rem;
   line-height: 1.5;
-  font-weight: 600;
 }
 
 .main-content table.metadata-table th,
@@ -20,6 +19,13 @@
   color: white;
 }
 
+.main-content table.metadata-table th {
+  font-weight: 600;
+}
+
+.main-content table.metadata-table td {
+  font-weight: 400;
+}
 
 .main-content table.metadata-table thead th {
   position: sticky;
