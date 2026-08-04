@@ -32,12 +32,6 @@
   table-layout: fixed;
 }
 
-.main-content table.metadata-table th:first-child,
-.main-content table.metadata-table td:first-child {
-  width: 15%;
-}
-
-
 .main-content table.metadata-table thead th {
   position: sticky;
   top: 0;
