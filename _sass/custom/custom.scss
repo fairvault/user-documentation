@@ -1,5 +1,5 @@
 
-.metadata-table {
+.main-content table.metadata-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
@@ -7,29 +7,29 @@
   margin: 1.5rem 0;
 }
 
-.metadata-table th,
-.metadata-table td {
+.main-content table.metadata-table th,
+.main-content table.metadata-table td {
   border: 1px solid #d9dde3;
   padding: 0.75rem 1rem;
   text-align: left;
   vertical-align: top;
 }
 
-.metadata-table thead th {
+.main-content table.metadata-table thead th {
   background-color: #1f4e79;
   color: white;
   font-weight: 600;
 }
 
-.metadata-table tbody tr:nth-child(even) {
+.main-content table.metadata-table tbody tr:nth-child(even) {
   background-color: #f8fafc;
 }
 
-.metadata-table tbody tr:hover {
+.main-content table.metadata-table tbody tr:hover {
   background-color: #eef5fb;
 }
 
-.metadata-table caption {
+.main-content table.metadata-table caption {
   caption-side: top;
   text-align: left;
   font-weight: 600;
@@ -37,22 +37,22 @@
   margin-bottom: 0.75rem;
 }
 
-.metadata-table td:first-child {
+.main-content table.metadata-table td:first-child {
   font-weight: 600;
 }
 
-.metadata-table thead th {
+.main-content table.metadata-table thead th {
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
-details summary {
+.main-content table.details summary {
   cursor: pointer;
   color: #1f4e79;
   font-weight: 500;
 }
 
-details summary:hover {
+.main-content table.details summary:hover {
   text-decoration: underline;
 }
