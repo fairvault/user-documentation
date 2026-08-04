@@ -4,7 +4,7 @@
   border-collapse: collapse;
   font-size: 0.95rem;
   line-height: 1.5;
- // margin: 1.5rem 0;
+  font-weight: 600;
 }
 
 .main-content table.metadata-table th,
@@ -16,13 +16,8 @@
 }
 
 .main-content table.metadata-table thead th {
-  background-color: #142428;
+  background-color: #0b3f47;
   color: white;
-  font-weight: 600;
-}
-
-.main-content table.metadata-table tbody td {
-  font-weight: 600;
 }
 
 
@@ -34,7 +29,7 @@
 
 .main-content table.details summary {
   cursor: pointer;
-  color: #142428;
+  color: #0b3f47;
   font-weight: 500;
 }
 
