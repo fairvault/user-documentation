@@ -163,7 +163,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
   <thead>
     <tr>
       <th>Data Reuse</th>
-      <th colspan="2"></th>
+      <th colspan="3"></th>
     </tr>
   </thead>
 

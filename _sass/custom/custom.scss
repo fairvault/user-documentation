@@ -10,36 +10,17 @@
 .main-content table.metadata-table th,
 .main-content table.metadata-table td {
   border: 1px solid #d9dde3;
-  padding: 0.75rem 1rem;
+ // padding: 0.75rem 1rem;
   text-align: left;
   vertical-align: top;
 }
 
 .main-content table.metadata-table thead th {
-  background-color: #1f4e79;
+  background-color: #142428;
   color: white;
   font-weight: 600;
 }
 
-.main-content table.metadata-table tbody tr:nth-child(even) {
-  background-color: #f8fafc;
-}
-
-.main-content table.metadata-table tbody tr:hover {
-  background-color: #eef5fb;
-}
-
-.main-content table.metadata-table caption {
-  caption-side: top;
-  text-align: left;
-  font-weight: 600;
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-}
-
-.main-content table.metadata-table td:first-child {
-  font-weight: 600;
-}
 
 .main-content table.metadata-table thead th {
   position: sticky;
@@ -49,7 +30,7 @@
 
 .main-content table.details summary {
   cursor: pointer;
-  color: #1f4e79;
+  color: #142428;
   font-weight: 500;
 }
 
