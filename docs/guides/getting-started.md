@@ -8,9 +8,7 @@ permalink: /getting-started/
 
 # Access
 
-FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be). For more information about the usage and its scope, please go to the [Home page](https://fairvault.github.io/user-documentation/).
-
-![Front page](images/front_page_1.png)
+FAIRVault is an instance of Harvard Dataverse. It is presently in pilot status, and hosted at [https://fairvault.dev.ugent.be](https://fairvault.dev.ugent.be).
 
 ### Log in with your institutional account
 
@@ -18,19 +16,21 @@ Users of participating institutions can log in using the institutional account t
 
 1. Visit the [FAIRVault login page](https://fairvault.dev.ugent.be/loginpage.xhtml).
 
+   ![Front page](images/front_page_1.png)
+
 2. Choose **“Log in via your institution”**.
 
 3. Select your university (UGent, VUB, UHasselt, or UAntwerpen).  
 
-   Using the correct institutional account ensures that you receive the proper permissions automatically.
-
-![Login page](images/sign_in_1.png)
+Using the correct institutional account ensures that you automatically receive the proper permissions for creating and downloading datasets.
 
 ### ORCID Login (Alternative)
 
 If you are not part of one of the participating institutions, you may use your **ORCID** account to log in.  
 
 After logging in with ORCID, you can request access to certain restricted access datasets.
+
+![Login page](images/sign_in_1.png)
 
 
 ---
@@ -47,8 +47,10 @@ Once logged in:
 4. The metadata also comprises of questions related to the access conditions and confidentiality of the data. If necessary, check out [the guidance on metadata fields](../guides/metadata.md#access-conditions).
 5. Upload your data files.
 6. Follow the [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md).
-7. Save the draft and review the metadata before submitting for review.
-8. Curators will receive a notification to review your dataset and publish it.
+7. Save the draft for the new dataset.
+8. Add a data usage license.
+9. Review the metadata before submitting for review.
+10. Curators will receive a notification to review your dataset and publish it.
 
 ![Add data](images/add_data_1.png)
 
@@ -59,13 +61,13 @@ Creating a dataset looks like this:
 ### Downloading Datasets and Files
 
 
-- To download a dataset, open its page and use the **“Access Dataset”** button to retrieve all files as a package.
+- To download a dataset, open its page and (depending on the access restrictions) use the **“Access Dataset”** button to retrieve all files as a package.
 ![Access dataset](images/FV_access_dataset.png)
 
 - To download an individual file, click the **Download** icon next to the desired file in the dataset’s file list.
 ![Access file](images/FV_access_file.png)
 
-- Some files may have restricted access; in that case, you must request access.
+- Some files may have restricted access; in that case, you must select the relevant files and request access.
 ![Access restrictedfile](images/FV_access_restricted-file.png)
 
 ### Searching and Browsing
