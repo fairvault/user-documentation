@@ -4,9 +4,9 @@ layout: default
 nav_order: 1
 parent: Sensitivity levels
 ---
-# Blue (Open) data tag: non-confidential and non-sensitive data
+# Blue (Open) sensitivity level: non-confidential and non-sensitive data
 
-If a dataset can be **openly shared**, without any access restrictions, the dataset can be tagged with a blue (Open) data tag.
+If a dataset can be **openly shared**, without any access restrictions, the dataset can be labeled with a blue (Open) sensitivity level.
 Anyone browsing to the FAIRVault repository will be able to access the dataset files.
 
 ## Example FAIRVault dataset
@@ -18,14 +18,15 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are no sensitivity or confidentiality risks, the dataset will get a **blue (Open)** data tag, and there will be no Legitimate Opt Out reason for open sharing of research data.
-- When submitting the dataset for review, the data curators will review the data tag classification.
+If there are no sensitivity or confidentiality risks, the dataset will get a **blue (Open)** sensitivity level, and there will be no Legitimate Opt Out reason for open sharing of research data.
+- When submitting the dataset for review, the data curators will review the classification of the sensitivity level.
 
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
  - [ ] Upload the dataset files, do not implement restriction
+ - [ ] Save dataset to create a draft version
  - [ ] Edit the Terms: select a suitable open data licence from the dropdown (e.g. CC BY 4.0)
  - [ ] Submit the dataset for review
 
@@ -33,4 +34,4 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 - [ ] Review metadata
 - [ ] Review the decision tree responses
 - [ ] Review terms and licence
-- [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
+- [ ] Indicate the correct sensitivity level, and if necessary the correct legitimate opt-out reason for openly sharing
