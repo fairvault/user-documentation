@@ -2,7 +2,7 @@
 title: "Orange (Restricted)"
 layout: default
 nav_order: 3
-parent: Datatags
+parent: Sensitivity levels
 ---
 
 # Orange (Restricted) data tag: confidential and moderate sensitivity data with access control
