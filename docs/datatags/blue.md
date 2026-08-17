@@ -2,7 +2,7 @@
 title: "Blue (Open)"
 layout: default
 nav_order: 1
-parent: Datatags
+parent: Sensitivity levels
 ---
 # Blue (Open) data tag: non-confidential and non-sensitive data
 
