@@ -2,7 +2,7 @@
 title: "Red (Metadata only)"
 layout: default
 nav_order: 3
-parent: Datatags
+parent: Sensitivity levels
 ---
 
 # Red (Metadata only) data tag: highly sensitive or highly confidential data with strict curatorial control
