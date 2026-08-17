@@ -2,7 +2,7 @@
 title: "Green (Registered)"
 layout: default
 nav_order: 2
-parent: Datatags
+parent: Sensitivity levels
 ---
 
 # Green (Registered) data tag: non-confidential and low sensitivity data with some access control
