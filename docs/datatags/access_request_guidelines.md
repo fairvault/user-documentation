@@ -2,7 +2,7 @@
 title: "Overview of access conditions per sensitivity level"
 layout: default
 nav_order: 1
-parent: Datatags
+parent: Sensitivity levels
 ---
 
 This page offers a simplified perspective on how to request access to datasets with a given sensitivity level containing certain types of restricted data.
