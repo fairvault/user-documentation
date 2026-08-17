@@ -47,4 +47,4 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 - Select the box that eables access requests. Access will be granted to all authenticated users by the data curator.
 - Add a clarification that data is available to all authenticated users of FAIRVault
   
-  <img src="../guides/images/FV_enable_access_request.png" alt="enable_access_request" width="700"/>
+  <img src="https://fairvault.github.io/user-documentation/docs/guides/images/FV_enable_access_request.png" alt="enable_access_request" width="700"/>
