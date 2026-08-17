@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Decision tree questions"
-parent: Datatags
+parent: Sensitivity levels
 ---
 
 # Decision tree 
