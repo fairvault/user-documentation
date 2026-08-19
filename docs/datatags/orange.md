@@ -5,13 +5,14 @@ nav_order: 3
 parent: Sensitivity levels
 ---
 
-# Orange (Restricted) data tag: confidential and moderate sensitivity data with access control
+# Orange (Restricted) sensitivity level: confidential and moderately sensitive data with access control
 
-If a dataset can only be shared under restricted access conditions, but does not contain highly sensitive or highly confidential data, the dataset can be tagged with an orange (Restricted) data tag.  
+If a dataset can only be shared under restricted-access conditions, but does not contain highly sensitive or highly confidential data, the dataset can be tagged with an orange (Restricted) sensitivity level.
+
 All authenticated users of FAIRVault can submit a Data Access request. This access request will be evaluated. If necessary (e.g. for personal data), a Data Use or Data Transfer Agreement will be drafted and signed by both parties before access can be granted.
 
 ## Example FAIRVault dataset
-A researcher in the field of Linguistics studies the evolution of regional dialects. The researcher conducts interviews and conversations with native speakers of all generations and audio-records those. Additionally, contact details and a wide variety of socio-demographics are collected (data- and place of birth, gender, location history, education level,….). The researcher has consent of all the participants to process this data. The researcher uploads the raw dataset to the FAIRVault.
+A researcher in the field of Linguistics studies the evolution of regional dialects. The researcher conducts interviews and conversations with native speakers of all generations and audio-records those. Additionally, contact details and a wide variety of socio-demographics are collected (date and place of birth, gender, location history, education level,….). The researcher has consent of all the participants to process this data. The researcher uploads the raw dataset to the FAIRVault.
 
 ## How to classify?
 
@@ -19,17 +20,18 @@ Fill out the the metadata fields relating to the FAIRVault decision tree. This c
 
 - Provide information for the most sensitive data contained in the dataset, for each type of sensitivity. *E.g.: if one file contains personal data and another is important for commercial valorization, both questions should be answered positively.*
 
-If there are sensitivity or confidentiality risks, the dataset may get an **orange (Restricted)** data tag.
-- When submitting the dataset for review, the data curators will review the data tag classification.
+If there are sensitivity or confidentiality risks, the dataset may get an **orange (Restricted)** sensitivity level.
+- When submitting the dataset for review, the data curators will review the sensitivity-level classification.
 
 More information: [the FAIRVault Decision Tree for sensitivity of research data](decision-forest.md)
 
 ## Checklist when depositing
  - [ ] Provide all mandatory and recommended metadata - [link to metadata guidance](../guides/Metadata_overview_v02.pdf)
- - [ ] Include an institutional point of contact: support [at] fairvault.be
- - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](#implementing-access-restriction-to-data-files-for-datasets-with-an-orange-data-tag).
- - [ ] Add the orange dataset guestbook for confidential datasets
- - [ ] Edit the Terms: select 'Custom Dataset Terms' in the license dropdown and provide a brief summary of the Terms of Use. The curator will review and further complete the terms during the review process.
+ - [ ] Include an institutional point of contact: support@fairvault.be
+ - [ ] Upload the dataset files AND **implement restriction on the dataset files**. Allow access requests. See [instructions below](#implementing-access-restriction-to-data-files-for-datasets-with-an-orange-sensitivity-level).
+ - [ ] Save dataset to create a draft version
+ - [ ] Under *Edit Terms Requirements*: select 'Custom Dataset Terms' in the license dropdown and provide a brief summary of the Terms of Use. The curator will review and further complete the terms during the review process.
+ - [ ] Also under *Edit Terms Requirements*: Add the orange dataset guestbook for confidential datasets
  - [ ] Submit the dataset for review
 
 ## Actions for the data curator
@@ -38,12 +40,14 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 - [ ] Review the decision tree responses
 - [ ] Review file restriction settings
 - [ ] Review terms, add the necessary information
-- [ ] Indicate the correct data tag, and if necessary the correct legitimate opt out reason for open sharing
+- [ ] Indicate the correct sensitivity level, and if necessary the correct legitimate opt out reason for open sharing
 
-## Implementing access restriction to data files for datasets with an Orange data tag
+## Implementing access restriction to data files for datasets with an Orange sensitivity level
 - After uploading the files, select the dataset files which should be restricted and click 'Edit' on the right hand side
 - In the small drop-down, click 'Restrict'
 ![Edit files to restrict access](../guides/images/FV_restrict_files_1.png)
 
 - Allows access requests. 
 - Add a clarification under which conditions access could be granted.
+
+  <img src="https://fairvault.github.io/user-documentation/docs/guides/images/FV_enable_access_request_orange.png" alt="enable_access_request" width="700"/>
