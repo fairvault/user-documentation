@@ -47,7 +47,7 @@ More information: [the FAIRVault Decision Tree for sensitivity of research data]
 - In the small drop-down, click 'Restrict'
 ![Edit files to restrict access](../guides/images/FV_restrict_files_1.png)
 
-- Allows access requests. 
+- Select the box "Enable access request". 
 - Add a clarification under which conditions access could be granted.
 
   <img src="https://fairvault.github.io/user-documentation/docs/guides/images/FV_enable_access_request_orange.png" alt="enable_access_request" width="700"/>
