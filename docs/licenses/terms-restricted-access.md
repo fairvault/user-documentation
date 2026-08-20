@@ -1,5 +1,5 @@
 ---
-title: Terms for datasets with orange or red datatag
+title: Terms for datasets with orange or red sensitivity level
 layout: default
 parent: Licenses
 nav_order: 4
