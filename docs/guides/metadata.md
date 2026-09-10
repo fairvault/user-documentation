@@ -170,7 +170,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 
   <tbody>
     <tr>
-      <td>Are there ethical concerns regarding disclosure of the data?
+      <td><strong>Are there ethical concerns regarding disclosure of the data?</strong>
         <div style="padding-left: 15px">
           <input type="checkbox" disabled>
           Ethical concerns apply 
@@ -354,6 +354,75 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
     </tr>
     <tr>
       <td colspan="2">
+        <details>
+        <summary>More information</summary>
+        Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
+        Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th>Data Reuse (option 2)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><strong>Does the dataset contain secondary data?</strong>
+      <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No secondary data within this dataset 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Dataset contains secondary data 
+        </div>
+        <details>
+        <summary>More information</summary>
+        Indicate whether the dataset, or parts of the dataset, have been obtained from someone else or have been originally created as part of another project.
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Copyright of the secondary data?</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Not applicable 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Secondary data is not subject to copyright of third parties 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Secondary data is subject to copyright of third parties 
+        </div>
+        <details>
+        <summary>More information</summary>
+        Are the secondary data protected by third party copyright?<br>
+        Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>License of the secondary data?</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Not applicable 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Secondary data is licensed for further sharing 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Secondary data is not licensed for further sharing 
+        </div>
         <details>
         <summary>More information</summary>
         Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
