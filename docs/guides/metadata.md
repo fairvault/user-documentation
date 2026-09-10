@@ -164,6 +164,40 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
+      <th>Ethical Concerns</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Are there ethical concerns regarding disclosure of the data?</td>
+    </tr>
+    <tr>
+      <td>
+        <div>
+          <input type="checkbox" disabled>
+          Ethical concerns apply 
+        </div>
+        <div>
+          <input type="checkbox" disabled>
+          No ethical concerns 
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+        <summary>More information</summary>
+        Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
+        </details>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="metadata-table">
+  <thead>
+    <tr>
       <th colspan="2">3rd Party Confidentiality</th>
     </tr>
   </thead>
