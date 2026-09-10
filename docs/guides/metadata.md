@@ -171,8 +171,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
   <tbody>
     <tr>
       <td>Are there ethical concerns regarding disclosure of the data?</td>
-    </tr>
-    <tr>
       <td>
         <div>
           <input type="checkbox" disabled>
@@ -183,8 +181,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           No ethical concerns 
         </div>
       </td>
-    </tr>
-    <tr>
       <td>
         <details>
         <summary>More information</summary>
