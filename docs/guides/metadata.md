@@ -139,7 +139,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>Ethical Concerns</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Are there ethical concerns regarding disclosure of the data?</strong>
@@ -153,7 +152,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details>
         <summary>More information</summary>
-        Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
+          <div class="details-content">
+          Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
+          </div>
         </details>
       </td>
     </tr>
@@ -166,7 +167,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>3rd Party Confidentiality</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Is the dataset generated as part of a collaboration with 3rd parties?</strong>
@@ -193,7 +193,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>Valorisation potential</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Is there valorisation potential related to the data?</strong>
@@ -220,7 +219,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>Other ethical issues</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Select which other ethical issues apply.</strong>
@@ -255,7 +253,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>Data Reuse</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Does the dataset contain secondary data?</strong>
@@ -324,7 +321,6 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       <th>Personal Data</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Does the dataset contain personal data?</strong>

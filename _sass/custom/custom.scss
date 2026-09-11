@@ -40,11 +40,7 @@
   font-weight: 500;
 }
 
-.main-content table.details summary:hover {
-  text-decoration: underline;
-}
-
-.main-content table.details .content {
+.metadata-table .details-content {
   background-color: #4acbfc;
   color: #316ef3;
   padding: 10px;
