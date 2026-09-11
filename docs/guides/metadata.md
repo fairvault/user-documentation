@@ -13,8 +13,6 @@ permalink: /metadata/
 
 [Decision Tree](#fairvault-decision-tree)
 
-[Test new HTML table layout](#testing-new-table-layout)
-
 ## Citation metadata
 
 | Metadata field | Description | Tips |
@@ -115,24 +113,6 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
 For the implications of the Decision Tree fields, see [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md).
 Indicate worst case: if any of the files in the dataset contain any of these characteristics, indicate that the attribute applies.  
 
-| Metadata field | Description | Drop-down options | Tips |
-|----|----|----|----|
-| Ethical concerns? | Are there ethical concerns regarding disclosure of the data? | - Ethical concerns apply <br> - No ethical concerns | Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.|
-| 3rd party confidentiality? | Is the dataset subject to confidentiality obligations towards third parties? | - 3rd party confidentiality applies  <br> - No 3rd party confidentiality | Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA). |
-| Valorisation potential? | Is there valorisation potential related to the data? | - Valorisation potential applies  <br> - No valorisation potential | Choose 'Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders. |
-| Other ethical issues? | Select which other ethical issues apply. | - No other ethical issues  <br> - Dual/military use potential <br> - Potential for misuse <br> - Concerns related to research security | Choose **‘Dual/military use potential’** if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. <br> Choose **‘Potential for misuse’** if the dataset (research results or techniques) could be used for terrorist or criminal activities or in applications that violate human rights or compromise the safety of people, animals or the environment. <br> Choose **'concerns related to research security'** if the dataset risks undesired knowledge or technology transfer, foreign interference, or misuse of research results that could compromise academic freedom, research integrity, or lead to unethical applications, including military or criminal use. |
-| Data reuse *(consists of 3 subfields)* | Indicate whether the dataset contains secondary data, and if so, what rights pertain to the data. |  |  |
-| - Secondary data? | Does the dataset contain secondary data? | - No secondary data within this dataset <br> - Dataset contains secondary data |  |
-| - Copyright? | Are the secondary data protected by third party copyright? | - Not applicable <br> - Secondary data is not subject to copyright of third parties <br> - Secondary data is subject to copyright of third parties | Select 'Not applicable' if the dataset does not contain secondary data. |
-| - License? | Are the secondary data licensed for further reuse and sharing? | - Not applicable <br> - Secondary data is licensed for further sharing <br> - Secondary data is not licensed for further sharing | Select 'Not applicable' if the dataset does not contain secondary data. <br> Is there a clear license allowing you to openly share the secondary data (e.g. CC-BY)? |
-| Personal data *(consists of 4 subfields)* |  |  | Following Art. 4(1) of GDPR, personal data are any information which are related to an identified or identifiable natural person. These can include direct (e.g. name, identification number) and/or indirect identifiers (e.g. gender, date of birth). |
-| - Personal data? | Does the dataset contain personal data? | - Yes, the dataset contains personal data <br> - No, the dataset does not contain personal data | 
-| - Anonymization/Pseudonymization | To what extent has your dataset been anonymized/pseudonymized for sharing via the Fairvault? | - Not applicable <br> - Anonymized <br> - Pseudonymized <br> - Neither anonymized nor pseudonymized | Select 'Not applicable' if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”. <br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”. |
-| - Consent? | Have the participants given consent to share the data? | - Not applicable <br> - Yes, consent obtained for data sharing <br> - No, no consent obtained for data sharing | Select 'Not applicable' if the dataset does not contain personal data. |
-| - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not applicable <br> - No special categories of personal data and no data from vulnerable people <br> - The personal data includes special categories of personal data <br> - The personal data includes data from vulnerable people | Select 'Not applicable' if the dataset does not contain personal data. |
-
-## testing new table layout
-
 <table class="metadata-table">
   <thead>
     <tr>
@@ -150,7 +130,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           No ethical concerns 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
           <div class="details-content">
           Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
