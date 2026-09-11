@@ -113,7 +113,7 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
   <tbody>
     <tr>
       <td class="section-header">Sensitivity level</td>
-      <td>Indicate the <a href="/docs/datatags/index.md"> sensitivity level </a> that applies to the dataset.</td>
+      <td>Indicate the <a href="../datatags/index.md"> sensitivity level </a> that applies to the dataset.</td>
       <td>The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block.</td>
     </tr>
     <tr>
