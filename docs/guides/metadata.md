@@ -132,39 +132,11 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 | - Special categories | Does the dataset contain special categories of personal data or data from vulnerable people? | - Not applicable <br> - No special categories of personal data and no data from vulnerable people <br> - The personal data includes special categories of personal data <br> - The personal data includes data from vulnerable people | Select 'Not applicable' if the dataset does not contain personal data. |
 
 ## testing new table layout
-<table class="metadata-table">
-  <thead>
-    <tr>
-      <th colspan="2">Ethical Concerns</th>
-    </tr>
-  </thead>
-
-  <tbody>
-      <tr>
-      <td colspan="2">Are there ethical concerns regarding disclosure of the data?</td>
-    </tr>
-    <tr>
-      <td rowspan="2">Options</td>
-      <td>Ethical concerns apply </td>
-    </tr>
-    <tr>
-      <td>No ethical concerns</td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <details>
-        <summary>More information</summary>
-        Choose ‘Ethical concerns apply’ if disclosing the data could raise ethical concerns. <br> E.g., if it risks harming individuals or groups, involves sensitive personal or cultural information, includes data from vulnerable populations, lacks proper informed consent for sharing, or could be misused in ways that cause discrimination, stigmatization, or other negative consequences. <br> Ethical concerns also apply if disclosure would violate legal, institutional, or community agreements.
-        </details>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 <table class="metadata-table">
   <thead>
     <tr>
-      <th>Ethical Concerns (option 2)</th>
+      <th>Ethical Concerns</th>
     </tr>
   </thead>
 
@@ -191,23 +163,21 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
-      <th colspan="2">3rd Party Confidentiality</th>
+      <th>3rd Party Confidentiality</th>
     </tr>
   </thead>
 
   <tbody>
-      <tr>
-      <td colspan="2">Is the dataset generated as part of a collaboration with 3rd parties?</td>
-    </tr>
     <tr>
-      <td rowspan="2">Options</td>
-      <td>3rd party confidentiality applies</td>
-    </tr>
-    <tr>
-      <td>No 3rd party confidentiality</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Is the dataset generated as part of a collaboration with 3rd parties?</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          3rd party confidentiality applies 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No 3rd party confidentiality 
+        </div>
         <details>
         <summary>More information</summary>
         Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. <br> E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA).
@@ -220,23 +190,21 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
-      <th colspan="2">Valorisation potential</th>
+      <th>Valorisation potential</th>
     </tr>
   </thead>
 
   <tbody>
-      <tr>
-      <td colspan="2">Is there valorisation potential related to the data?</td>
-    </tr>
     <tr>
-      <td rowspan="2">Options</td>
-      <td>Valorisation potential applies</td>
-    </tr>
-    <tr>
-      <td>No valorisation potential</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Is there valorisation potential related to the data?</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Valorisation potential applies 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No valorisation potential 
+        </div>
         <details>
         <summary>More information</summary>
         Choose ‘Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders.
@@ -249,29 +217,29 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
-      <th colspan="2">Other ethical issues</th>
+      <th>Other ethical issues</th>
     </tr>
   </thead>
 
   <tbody>
-      <tr>
-      <td colspan="2">Select which other ethical issues apply.</td>
-    </tr>
     <tr>
-      <td rowspan="4">Options</td>
-      <td>No other ethical issues</td>
-    </tr>
-    <tr>
-      <td>Potential for misuse</td>
-    </tr>
-        <tr>
-      <td>Dual/military use potential</td>
-    </tr>
-       <tr>
-      <td>Concerns related to research security</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Select which other ethical issues apply.</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No other ethical issues 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Potential for misuse 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Dual/military use potential 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Concerns related to research security 
+        </div>
         <details>
         <summary>More information</summary>
         Choose <strong>‘Dual/military use potential’</strong> if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. <br> Choose <strong>‘Potential for misuse’</strong> if the dataset (research results or techniques) could be used for terrorist or criminal activities or in applications that violate human rights or compromise the safety of people, animals or the environment. <br> Choose <strong>‘concerns related to research security’</strong> if the dataset risks undesired knowledge or technology transfer, foreign interference, or misuse of research results that could compromise academic freedom, research integrity, or lead to unethical applications, including military or criminal use.
@@ -281,93 +249,10 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
   </tbody>
 </table>
 
-
 <table class="metadata-table">
   <thead>
     <tr>
-      <th colspan="3">Data Reuse</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td rowspan="4"></td>
-      <td colspan="2">
-        <strong>Does the dataset contain secondary data?</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">Options</td>
-      <td>No secondary data within this dataset</td>
-    </tr>
-    <tr>
-      <td>Dataset contains secondary data</td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <details>
-        <summary>More information</summary>
-        Indicate whether the dataset, or parts of the dataset, have been obtained from someone else or have been originally created as part of another project.
-        </details>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="5"></td>
-      <td colspan="2">
-        <strong>Copyright of the secondary data?</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="3">Options</td>
-      <td>Not applicable</td>
-    </tr>
-    <tr>
-      <td>Secondary data is not subject to copyright of third parties</td>
-    </tr>
-    <tr>
-      <td>Secondary data is subject to copyright of third parties</td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <details>
-        <summary>More information</summary>
-        Are the secondary data protected by third party copyright?<br>
-        Select ‘Not applicable’ if the dataset does not contain secondary data.
-        </details>
-      </td>
-    </tr>
-        <tr>
-      <td rowspan="5"></td>
-      <td colspan="2">
-        <strong>License of the secondary data?</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="3">Options</td>
-      <td>Not applicable</td>
-    </tr>
-    <tr>
-      <td>Secondary data is licensed for further sharing</td>
-    </tr>
-    <tr>
-      <td>Secondary data is not licensed for further sharing</td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <details>
-        <summary>More information</summary>
-        Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
-        Select ‘Not applicable’ if the dataset does not contain secondary data.
-        </details>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="metadata-table">
-  <thead>
-    <tr>
-      <th>Data Reuse (option 2)</th>
+      <th>Data Reuse</th>
     </tr>
   </thead>
 
@@ -436,24 +321,21 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
 <table class="metadata-table">
   <thead>
     <tr>
-      <th colspan="3">Personal Data</th>
+      <th>Personal Data</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td rowspan="4"></td>
-      <td colspan="2">
-        <strong>Does the dataset contain personal data?</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">Options</td>
-      <td>Yes, the dataset contains personal data</td>
-    </tr>
-      <td>No, the dataset does not contain personal data</td>
-    <tr>
-      <td colspan="2">
+      <td><strong>Does the dataset contain personal data?</strong>
+      <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Yes, the dataset contains personal data 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No, the dataset does not contain personal data 
+        </div>
         <details>
         <summary>More information</summary>
         Indicate whether the dataset, or parts of the dataset, contain personal data according to the definition of the European privacy legislation, GDPR.
@@ -461,50 +343,43 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       </td>
     </tr>
     <tr>
-      <td rowspan="6"></td>
-      <td colspan="2">
-        <strong>Anonymization/Pseudonymization</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="4">Options</td>
-      <td>Not applicable</td>
-    </tr>
-    <tr>
-      <td>Anonymized</td>
-    </tr>
-    <tr>
-      <td>Pseudonymized</td>
-    </tr>
-    <tr>
-      <td>Neither anonymized nor pseudonymized</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Anonymisation/Pseudonymisation</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Not applicable 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Anonymised 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Pseudonymised 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Neither anonymised nor pseudonimised 
+        </div>
         <details>
         <summary>More information</summary>
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”.<br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”.
         </details>
       </td>
     </tr>
-        <tr>
-      <td rowspan="5"></td>
-      <td colspan="2">
-        <strong>Consent?</strong>
-      </td>
-    </tr>
     <tr>
-      <td rowspan="3">Options</td>
-      <td>Not applicable</td>
-    </tr>
-    <tr>
-      <td>Yes, consent obtained for data sharing</td>
-    </tr>
-    <tr>
-      <td>No, no consent obtained for data sharing</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Consent?</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Not applicable 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Yes, consent obtained for data sharing 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No, no consent obtained for data sharing 
+        </div>
         <details>
         <summary>More information</summary>
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Indicate whether the consent form includes explicit consent for further sharing.
@@ -512,29 +387,26 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
       </td>
     </tr>
     <tr>
-      <td rowspan="6"></td>
-      <td colspan="2">
-        <strong>Special categories</strong>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="4">Options</td>
-      <td>Not applicable</td>
-    </tr>
-    <tr>
-      <td>No special categories of personal data and no data from vulnerable people</td>
-    </tr>
-    <tr>
-      <td>The personal data includes special categories of personal data</td>
-    </tr>
-    <tr>
-      <td>The personal data includes data from vulnerable people</td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td><strong>Special categories</strong>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          Not applicable 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          No special categories of personal data and no data from vulnerable people 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          The personal data includes special categories of personal data 
+        </div>
+        <div style="padding-left: 15px">
+          <input type="checkbox" disabled>
+          The personal data includes data from vulnerable people 
+        </div>
         <details>
         <summary>More information</summary>
-        Select ‘Not applicable’ if the dataset does not contain personal data. 
+        Select ‘Not applicable’ if the dataset does not contain personal data.
         </details>
       </td>
     </tr>
