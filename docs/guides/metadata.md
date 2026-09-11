@@ -118,14 +118,14 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
   </thead>
   <tbody>
     <tr>
-      <td>Sensitivity level</td>
-      <td>Indicate the sensitivity level that applies to the dataset.</td>
+      <td class="section-header">Sensitivity level</td>
+      <td>Indicate the <a href={% link /docs/datatags/index.md %}> sensitivity level </a> that applies to the dataset.</td>
       <td>The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block.</td>
     </tr>
     <tr>
       <td>Embargo until</td>
-      <td>End of dataset embargo period.</td>
-      <td>This is the date after which the dataset will become accessible according to the conditions defined for the sensitivity level.</td>
+      <td>End of dataset embargo period. This is the date after which the dataset will become accessible according to the conditions defined for the sensitivity level. </td>
+      <td>Add the date following the ISO 8601 standard, i.e. YYYY-MM-DD.</td>
     </tr>
     <tr>
       <td>Reason for restriction</td>
