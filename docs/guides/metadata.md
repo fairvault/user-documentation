@@ -102,12 +102,6 @@ permalink: /metadata/
 
 For the access levels defined in FAIRVault, see [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md)
 
-| Metadata field | Description | Tips |
-|----|----|----|
-| Sensitivity level | What sensitivity level applies to the data?  | The sensitivity level of the dataset is categorized according to the corresponding access level. The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block. |
-| Embargo until | End date of data embargo period. This is the date after which the data will become accessible (either openly or via access requests). | Add the date following the ISO 8601 standard, i.e. YYYY-MM-DD. |
-| Reason for restriction | Provide the reason why access to (some) files in the dataset need to be restricted. | Choose from the drop-down list. Multiple answers can be selected. |
-
 <table class="metadata-table">
   <thead>
     <tr>
@@ -119,7 +113,7 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
   <tbody>
     <tr>
       <td class="section-header">Sensitivity level</td>
-      <td>Indicate the <a href="{% link /docs/datatags/index.md %} sensitivity level </a> that applies to the dataset.</td>
+      <td>Indicate the <a href="/docs/datatags/index.md"> sensitivity level </a> that applies to the dataset.</td>
       <td>The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block.</td>
     </tr>
     <tr>
