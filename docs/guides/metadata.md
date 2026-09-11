@@ -158,7 +158,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           No 3rd party confidentiality 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. <br> E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA).
         </details>
@@ -184,7 +184,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           No valorisation potential 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Choose ‘Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders.
         </details>
@@ -218,7 +218,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           Concerns related to research security 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Choose <strong>‘Dual/military use potential’</strong> if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. <br> Choose <strong>‘Potential for misuse’</strong> if the dataset (research results or techniques) could be used for terrorist or criminal activities or in applications that violate human rights or compromise the safety of people, animals or the environment. <br> Choose <strong>‘concerns related to research security’</strong> if the dataset risks undesired knowledge or technology transfer, foreign interference, or misuse of research results that could compromise academic freedom, research integrity, or lead to unethical applications, including military or criminal use.
         </details>
@@ -244,7 +244,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           Dataset contains secondary data 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Indicate whether the dataset, or parts of the dataset, have been obtained from someone else or have been originally created as part of another project.
         </details>
@@ -264,7 +264,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           Secondary data is subject to copyright of third parties 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Are the secondary data protected by third party copyright?<br>
         Select ‘Not applicable’ if the dataset does not contain secondary data.
@@ -285,7 +285,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           Secondary data is not licensed for further sharing 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
         Select ‘Not applicable’ if the dataset does not contain secondary data.
@@ -312,7 +312,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           No, the dataset does not contain personal data 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Indicate whether the dataset, or parts of the dataset, contain personal data according to the definition of the European privacy legislation, GDPR.
         </details>
@@ -336,7 +336,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           Neither anonymised nor pseudonimised 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”.<br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”.
         </details>
@@ -356,7 +356,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           No, no consent obtained for data sharing 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Indicate whether the consent form includes explicit consent for further sharing.
         </details>
@@ -380,7 +380,7 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
           <input type="checkbox" disabled>
           The personal data includes data from vulnerable people 
         </div>
-        <details>
+        <details open>
         <summary>More information</summary>
         Select ‘Not applicable’ if the dataset does not contain personal data.
         </details>
