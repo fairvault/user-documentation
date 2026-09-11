@@ -3,7 +3,7 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .main-content table.metadata-table th,
@@ -42,4 +42,10 @@
 
 .main-content table.details summary:hover {
   text-decoration: underline;
+}
+
+.main-content table.details-content {
+  background-color: #4acbfc;
+  padding: 10px;
+  border-radius: 0 0 6px 6px;
 }
