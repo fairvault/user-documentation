@@ -108,6 +108,33 @@ For the access levels defined in FAIRVault, see [guidelines for restricting acce
 | Embargo until | End date of data embargo period. This is the date after which the data will become accessible (either openly or via access requests). | Add the date following the ISO 8601 standard, i.e. YYYY-MM-DD. |
 | Reason for restriction | Provide the reason why access to (some) files in the dataset need to be restricted. | Choose from the drop-down list. Multiple answers can be selected. |
 
+<table class="metadata-table">
+  <thead>
+    <tr>
+      <th>Metadata field</th>
+      <th>Description</th>
+      <th>Tips</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sensitivity level</td>
+      <td>Indicate the sensitivity level that applies to the dataset.</td>
+      <td>The data curator of the FAIRVault will review this based on the answers from the FAIRVault Decision Tree metadata block.</td>
+    </tr>
+    <tr>
+      <td>Embargo until</td>
+      <td>End of dataset embargo period.</td>
+      <td>This is the date after which the dataset will become accessible according to the conditions defined for the sensitivity level.</td>
+    </tr>
+    <tr>
+      <td>Reason for restriction</td>
+      <td>Reason why access to (some) files in the dataset need to be restricted.</td>
+      <td>Choose from the drop-down list. Multiple answers can be selected. </td>
+    </tr>
+  </tbody>
+</table>
+
 ## FAIRVault Decision Tree
 
 For the implications of the Decision Tree fields, see [guidelines for restricting access to confidential or sensitive datasets](../datatags/index.md).
@@ -160,7 +187,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Choose ‘3rd party confidentiality applies’ if the dataset contains information that is subject to confidentiality agreements with third parties. <br> E.g., data provided by external organizations, companies, or collaborators under a contract containing a confidentiality clause or a non-disclosure agreement (NDA).
+        </div>
         </details>
       </td>
     </tr>
@@ -186,7 +215,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Choose ‘Valorisation potential applies’ if the data has potential commercial value. E.g., if it could be used for developing products, services, patents, or innovations, or if it holds relevance for industry partners, startups, or other external stakeholders.
+        </div>
         </details>
       </td>
     </tr>
@@ -220,7 +251,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Choose <strong>‘Dual/military use potential’</strong> if the dataset (research results or techniques) may lend themselves to military purposes or if they could be applied for both civil and military purposes, even if not intended for military use. <br> Choose <strong>‘Potential for misuse’</strong> if the dataset (research results or techniques) could be used for terrorist or criminal activities or in applications that violate human rights or compromise the safety of people, animals or the environment. <br> Choose <strong>‘concerns related to research security’</strong> if the dataset risks undesired knowledge or technology transfer, foreign interference, or misuse of research results that could compromise academic freedom, research integrity, or lead to unethical applications, including military or criminal use.
+        </div>
         </details>
       </td>
     </tr>
@@ -246,7 +279,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Indicate whether the dataset, or parts of the dataset, have been obtained from someone else or have been originally created as part of another project.
+        </div>
         </details>
       </td>
     </tr>
@@ -266,8 +301,10 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Are the secondary data protected by third party copyright?<br>
         Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </div>
         </details>
       </td>
     </tr>
@@ -287,8 +324,10 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Is there a clear license allowing you to further share the secondary data (e.g. CC-BY)?<br>
         Select ‘Not applicable’ if the dataset does not contain secondary data.
+        </div>
         </details>
       </td>
     </tr>
@@ -314,7 +353,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Indicate whether the dataset, or parts of the dataset, contain personal data according to the definition of the European privacy legislation, GDPR.
+        </div>
         </details>
       </td>
     </tr>
@@ -338,7 +379,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Anonymous data is (according to GDPR) “information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable”.<br> Pseudonymisation is defined in GDPR as “‘the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person”.
+        </div>
         </details>
       </td>
     </tr>
@@ -358,7 +401,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Select ‘Not applicable’ if the dataset does not contain personal data. <br> Indicate whether the consent form includes explicit consent for further sharing.
+        </div>
         </details>
       </td>
     </tr>
@@ -382,7 +427,9 @@ Indicate worst case: if any of the files in the dataset contain any of these cha
         </div>
         <details open>
         <summary>More information</summary>
+        <div class="details-content">
         Select ‘Not applicable’ if the dataset does not contain personal data.
+        </div>
         </details>
       </td>
     </tr>
