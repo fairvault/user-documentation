@@ -1,7 +1,7 @@
 ---
 title: "User roles"
 layout: default
-nav_order: 4
+nav_order: 3
 parent: Guide
 permalink: /user-roles/
 ---
@@ -12,7 +12,7 @@ The Dataverse software underlying the FAIRvault, manages permissions to differen
 
 Depending on your own role in relations to a Dataverse collection or dataset in the repository, you may be able to assign roles to other users. The table below describes the roles available in the repository and the permissions assigned to each.
 
-<table class="metadata-table">
+<table>
   <thead>
     <tr>
       <title>User roles</title>
@@ -37,18 +37,23 @@ Depending on your own role in relations to a Dataverse collection or dataset in 
     <tr>
       <td>Organisational curator</td>
       <td>Curator for a collection within FAIRvault</td>
-      <td>A person who can add/edit/publish/deaccession datasets submitted to this Dataverse collection as well as manage access to the datasets in this collection. In practice this will often be the same person as the Organisational administrator</td>
+      <td>A person who can add/edit/publish/deaccession datasets submitted to this Dataverse collection as well as manage access to the datasets in this collection. In practice this will often be the same person as the Organisational administrator.</td>
     </tr>
     <tr>
       <td>Contributor</td>
       <td>Member of a participating institute</td>
-      <td>A person who can add datasets within a Dataverse collection. Datasets submitted to the Dataverse collection are "submitted for review." An Administrator or Curator for the Dataverse collection must approve and publish (or return to the contributor). r</td>
+      <td>A person who can add datasets within a Dataverse collection. Datasets submitted to the Dataverse collection are "submitted for review." An Administrator or Curator for the Dataverse collection must approve and publish (or return to the contributor). </td>
+    </tr>
+    <tr>
+      <td>Authenticated user</td>
+      <td>Anyone with a FAIRvault account</td>
+      <td>A person who view metadata of datasets within a Dataverse collection and download files of Blue (Open) and Green (Registered) datasets. Can request access if sensitivity level is Orange (restricted).</td>
     </tr>
   </tbody>
 </table>
 
 Users logging in through their institutional authentication systems are assigned to an institutional group in the FAIRvault with permissions specific to the collection of that institution. If you have questions about your permissions level, please contact your support staff [add link].
 
-File level permissions are binary. You simply grant (or restrict) access to published files.
+File level permissions are binary. Access is granted (or restricted) to published files.
 
 Creation of Dataverse sub-collections is at the discretion of the administrators of the participating institutes.
